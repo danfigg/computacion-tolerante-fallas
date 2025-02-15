@@ -51,5 +51,6 @@ Si hay una partida guardada, el programa te preguntará si deseas continuarla.
 - `blackjack.py`: Código principal del juego.
 - `blackjack_save.txt`: Archivo donde se guarda el estado de la partida.
 - `assets/`: Carpeta con las imágenes de las cartas.
+-  `ejemplos/`: Capturas del funcionamiento del programa
 
 

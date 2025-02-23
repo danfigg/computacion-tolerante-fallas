@@ -1,0 +1,37 @@
+{
+    "inventario": [
+      {
+        "id": "1",
+        "nombre": "Nike Air Max 270",
+        "categoria": "Calzado",
+        "cantidad_disponible": 50,
+        "precio": 120.00,
+        "descripcion": "Zapatillas deportivas."
+      },
+      {
+        "id": "2",
+        "nombre": "Nike Revolution 6",
+        "categoria": "Calzado",
+        "cantidad_disponible": 70,
+        "precio": 65.00,
+        "descripcion": "Zapatillas de running."
+      },
+      {
+        "id": "3",
+        "nombre": "Nike Dri-FIT T-shirt",
+        "categoria": "Ropa",
+        "cantidad_disponible": 30,
+        "precio": 25.00,
+        "descripcion": "Camiseta deportiva de manga corta."
+      },
+      {
+        "id": "4",
+        "nombre": "Nike Pro Shorts",
+        "categoria": "Ropa",
+        "cantidad_disponible": 40,
+        "precio": 30.00,
+        "descripcion": "Shorts de entrenamiento."
+      }
+    ]
+  }
+  

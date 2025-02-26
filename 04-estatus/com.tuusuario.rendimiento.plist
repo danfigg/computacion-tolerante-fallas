@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.tuusuario.rendimiento</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/python3</string>  <!-- Ruta al intérprete de Python -->
+        <string>/Users/tuusuario/Scripts/rendimiento.py</string>  <!-- Ruta al script -->
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/tmp/rendimiento.log</string>  <!-- Archivo de log para la salida estándar -->
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/rendimiento_error.log</string>  <!-- Archivo de log para errores -->
+</dict>
+</plist>

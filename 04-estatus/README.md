@@ -15,6 +15,25 @@ Monitoreo en tiempo real de:
 - Persistencia de logs en archivos para análisis posteriores.
 - Configuración como servicio en macOS usando launchd.
 
+## Funcionamiento
+### Funcionamiento correcto
+
+![Funcionamiento correcto](ejemplos/funcionamiento.jpg)
+
+### Funcionamiento después de reiniciar
+
+![Funcionamiento después de reiniciar](ejemplos/funcionamiento_reinicio.jpg)
+
+### Logs
+El script genera logs en los siguientes archivos:
+- **Salida estándar:** /tmp/rendimiento.log
+- **Errores:** /tmp/rendimiento_error.log
+
+## Tecnologías Utilizadas
+- Python: Lenguaje principal para el desarrollo.
+- psutil: Para obtener métricas del sistema.
+- launchd: Para ejecutar el monitor como un servicio en macOS.
+
 ## Instalación
 
 ### Requisitos
@@ -56,14 +75,6 @@ sudo launchctl load /Library/LaunchDaemons/com.tuusuario.rendimiento.plist
 sudo launchctl list | grep com.tuusuario.rendimiento
 ```
 
-## Funcionamiento
-![Funcionamiento correcto](/ejemplos/funcionamiento.jpg)
-![Funcionamiento después de reiniciar](/ejemplos/funcionamiento_reinicio.jpg)
-### Logs
-El script genera logs en los siguientes archivos:
-- **Salida estándar:** /tmp/rendimiento.log
-- **Errores:** /tmp/rendimiento_error.log
-
 ## Archivos Importantes
 - **ejemplos/:** Imágenes de ejemplos para observar la ejecución
 - **rendimiento.py:** Código principal del monitor de rendimiento.
@@ -78,9 +89,5 @@ Si deseas detener el servicio, usa:
 sudo launchctl unload /Library/LaunchDaemons/com.tuusuario.rendimiento.plist
 ```
 
-![Detener e Iniciar el servicio](/ejemplos/iniciar-detener.jpg)
+![Detener e Iniciar el servicio](ejemplos/iniciar-detener.jpg)
 
-## Tecnologías Utilizadas
-- Python: Lenguaje principal para el desarrollo.
-- psutil: Para obtener métricas del sistema.
-- launchd: Para ejecutar el monitor como un servicio en macOS.

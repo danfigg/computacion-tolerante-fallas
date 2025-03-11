@@ -1,0 +1,564 @@
+id,date,stadium,season,tournament,round,home_team,away_team
+1031382,2023-10-22 01:00:00+00:00,Estadio Azteca,2023,Apertura,13,Club America,Santos Laguna
+569808,2020-11-08 18:00:00+00:00,Estadio Nemesio Diez,2020,Apertura,17,Toluca,Leon
+648848,2020-12-07 00:30:00+00:00,Estadio Olimpico de Universitario,2020,Apertura,Semi-finals,U.N.A.M. - Pumas,Cruz Azul
+120283,2019-04-07 01:00:00+00:00,Estadio Universitario (UANL),2018,Clausura,13,Tigres UANL,U.N.A.M. - Pumas
+143381,2018-03-31 01:00:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon (Morelia),2017,Clausura,13,Monarcas,Guadalajara Chivas
+143564,2017-11-05 01:06:00+00:00,Estadio Miguel Hidalgo,2017,Apertura,16,Pachuca,Club Queretaro
+143396,2018-04-08 02:06:00+00:00,Estadio AKRON (Zapopan),2017,Clausura,14,Guadalajara Chivas,Veracruz
+143649,2017-02-05 03:00:00+00:00,Estadio Victoria,2016,Clausura,5,Necaxa,Monterrey
+143679,2017-03-04 03:00:00+00:00,Estadio Caliente,2016,Clausura,9,Club Tijuana,Pachuca
+1200174,2024-05-17 03:00:00+00:00,Estadio BBVA,2023,Clausura,Semi-finals,Monterrey,Cruz Azul
+569739,2020-09-10 02:00:00+00:00,Estadio de Mazatlan,2020,Apertura,9,Mazatlan,Club Tijuana
+120179,2019-01-06 22:00:00+00:00,Estadio Universitario BUAP,2018,Clausura,1,Lobos Buap,Santos Laguna
+143673,2017-02-26 01:00:00+00:00,Estadio Jalisco,2016,Clausura,8,Atlas,Leon
+143538,2017-10-15 00:00:00+00:00,Estadio BBVA Bancomer,2017,Apertura,13,Monterrey,Pachuca
+1031347,2023-09-23 03:10:00+00:00,Estadio Cuauhtemoc,2023,Apertura,9,Puebla,U.N.A.M. - Pumas
+569760,2020-09-27 22:00:00+00:00,Estadio AKRON,2020,Apertura,12,Guadalajara Chivas,Mazatlan
+702933,2021-05-13 00:00:00+00:00,Estadio Nemesio Diez,2020,Clausura,Quarter-finals,Toluca,Cruz Azul
+143625,2017-01-21 03:00:00+00:00,Estadio Luis Pirata Fuente,2016,Clausura,3,Veracruz,Atlas
+1031286,2023-07-09 00:05:00+00:00,Estadio AKRON,2023,Apertura,2,Guadalajara Chivas,Atletico San Luis
+143803,2016-08-14 22:00:00+00:00,Estadio Victor Manuel Reyna,2016,Apertura,5,Jaguares de Chiapas,Veracruz
+1206015,2024-07-13 03:05:00+00:00,Estadio Jalisco,2024,Apertura,2,Atlas,Tigres UANL
+143632,2017-01-22 18:00:00+00:00,Estadio Nemesio Diez,2016,Clausura,3,Toluca,Jaguares de Chiapas
+974443,2023-04-22 03:05:00+00:00,Estadio Caliente,2022,Clausura,16,Club Tijuana,Leon
+120431,2018-10-07 17:00:00+00:00,Estadio Nemesio Diez,2018,Apertura,12,Toluca,Pachuca
+143884,2016-10-23 23:00:00+00:00,Estadio TSM Corona,2016,Apertura,14,Santos Laguna,Atlas
+974325,2023-01-22 23:06:00+00:00,Estadio BBVA,2022,Clausura,3,Monterrey,Atletico San Luis
+1206027,2024-07-18 03:00:00+00:00,Estadio Nemesio Diez,2024,Apertura,3,Toluca,Mazatlan
+293426,2020-02-06 02:30:00+00:00,Estadio Victoria de Aguascalientes,2019,Clausura,1,Necaxa,Monterrey
+1145600,2023-12-07 03:00:00+00:00,Estadio Alfonso Lastras Ramirez,2023,Apertura,Semi-finals,Atletico San Luis,Club America
+143524,2017-11-10 03:00:00+00:00,Estadio BBVA Bancomer,2017,Apertura,11,Monterrey,Santos Laguna
+143318,2018-02-10 01:00:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon (Morelia),2017,Clausura,6,Monarcas,U.N.A.M. - Pumas
+816439,2022-04-09 02:00:00+00:00,Estadio de Mazatlan,2021,Clausura,13,Mazatlan,Cruz Azul
+143309,2018-02-03 01:00:00+00:00,Estadio Cuauhtemoc (Puebla),2017,Clausura,5,Puebla,Guadalajara Chivas
+816344,2022-01-16 18:00:00+00:00,Estadio Nemesio Diez,2021,Clausura,2,Toluca,Santos Laguna
+1206151,2024-11-10 01:00:00+00:00,Estadio Nemesio Diez,2024,Apertura,17,Toluca,Club America
+1031392,2023-10-29 03:10:00+00:00,Estadio BBVA,2023,Apertura,14,Monterrey,Club America
+169216,2019-11-02 03:00:00+00:00,Estadio Jalisco,2019,Apertura,17,Atlas,Atletico San Luis
+143478,2017-08-24 02:00:00+00:00,Estadio BBVA Bancomer,2017,Apertura,6,Monterrey,Toluca
+652902,2021-03-19 02:00:00+00:00,Estadio Hidalgo,2020,Clausura,12,Pachuca,Tigres UANL
+973619,2023-01-13 03:00:00+00:00,Estadio Jalisco,2022,Clausura,2,Atlas,Mazatlan
+1031324,2023-08-28 00:05:00+00:00,Estadio Olimpico Universitario,2023,Apertura,6,U.N.A.M. - Pumas,Tigres UANL
+120454,2018-11-04 01:00:00+00:00,Estadio Azteca,2018,Apertura,15,Club America,Toluca
+1206076,2024-09-21 01:00:00+00:00,Estadio Cuauhtemoc,2024,Apertura,9,Puebla,Pachuca
+143672,2017-02-26 01:00:00+00:00,Estadio Universitario (UANL),2016,Clausura,8,Tigres UANL,Monarcas
+1031376,2023-10-08 23:00:00+00:00,Estadio Victoria,2023,Apertura,12,Necaxa,Puebla
+864228,2022-09-19 02:05:00+00:00,Estadio Caliente,2022,Apertura,15,Club Tijuana,Necaxa
+120294,2019-04-14 17:00:00+00:00,Estadio Olimpico Universitario,2018,Clausura,14,U.N.A.M. - Pumas,Club Tijuana
+143598,2016-12-05 02:00:00+00:00,Estadio Azteca,2016,Apertura,Semi-finals,Club America,Necaxa
+1206062,2024-09-14 22:45:00+00:00,Estadio Nemesio Diez,2024,Apertura,7,Toluca,Club Tijuana
+1150220,2024-01-20 01:00:00+00:00,Estadio Cuauhtemoc,2023,Clausura,2,Puebla,Necaxa
+1150361,2024-04-28 03:10:00+00:00,Estadio Jalisco,2023,Clausura,17,Atlas,Guadalajara Chivas
+648092,2020-11-29 01:00:00+00:00,Estadio Leon,2020,Apertura,Quarter-finals,Leon,Puebla
+143645,2017-02-04 23:00:00+00:00,Estadio Azul,2016,Clausura,5,Cruz Azul,Club Queretaro
+652896,2021-03-14 03:06:00+00:00,Estadio Caliente,2020,Clausura,11,Club Tijuana,Santos Laguna
+1206024,2024-07-17 01:00:00+00:00,Estadio Hidalgo,2024,Apertura,3,Pachuca,Atletico San Luis
+1206092,2024-09-30 00:00:00+00:00,Estadio Ciudad de los Deportes,2024,Apertura,10,Club America,U.N.A.M. - Pumas
+1206043,2024-08-25 01:00:00+00:00,Estadio Leon,2024,Apertura,5,Leon,Santos Laguna
+974432,2023-04-15 01:05:00+00:00,Estadio Victoria de Aguascalientes,2022,Clausura,15,Necaxa,Puebla
+647099,2020-11-22 03:10:00+00:00,Estadio AKRON,2020,Apertura,Reclasificacion,Guadalajara Chivas,Necaxa
+143729,2017-04-16 00:06:00+00:00,Estadio Miguel Hidalgo,2016,Clausura,14,Pachuca,Guadalajara Chivas
+1316647,2024-12-01 01:10:00+00:00,Estadio Ciudad de los Deportes,2024,Apertura,Quarter-finals,Cruz Azul,Club Tijuana
+652819,2021-01-18 03:06:00+00:00,Estadio La Corregidora,2020,Clausura,2,Club Queretaro,Atlas
+652830,2021-02-03 03:00:00+00:00,Estadio Cuauhtemoc,2020,Clausura,4,Puebla,Monterrey
+701898,2021-05-10 00:00:00+00:00,Estadio Leon,2020,Clausura,Reclasificacion,Leon,Toluca
+705633,2021-05-28 02:00:00+00:00,Estadio Nuevo Corona,2020,Clausura,Finals,Santos Laguna,Cruz Azul
+169114,2019-08-18 22:00:00+00:00,Estadio Victoria de Aguascalientes,2019,Apertura,5,Necaxa,Santos Laguna
+1206044,2024-08-25 01:00:00+00:00,Estadio Jalisco,2024,Apertura,5,Atlas,U.N.A.M. - Pumas
+1150256,2024-02-10 01:00:00+00:00,Estadio El Encanto,2023,Clausura,6,Mazatlan,Atlas
+143818,2016-08-28 00:06:00+00:00,Estadio Miguel Hidalgo,2016,Apertura,7,Pachuca,Monterrey
+816454,2022-04-17 17:00:00+00:00,Estadio Olimpico de Universitario,2021,Clausura,14,U.N.A.M. - Pumas,Monterrey
+293488,2020-03-01 23:00:00+00:00,Estadio AKRON,2019,Clausura,8,Guadalajara Chivas,Leon
+721772,2021-08-21 22:00:00+00:00,Estadio Jalisco,2021,Apertura,6,Atlas,Toluca
+1031360,2023-10-02 23:20:00+00:00,Estadio Nemesio Diez,2023,Apertura,10,Toluca,Guadalajara Chivas
+1031318,2023-08-31 03:00:00+00:00,Estadio Universitario,2023,Apertura,5,Tigres UANL,Santos Laguna
+127806,2019-05-20 01:06:00+00:00,Estadio Leon,2018,Clausura,Semi-finals,Leon,Club America
+1144265,2023-11-30 01:06:00+00:00,Estadio Leon,2023,Apertura,Quarter-finals,Leon,Club America
+143441,2017-07-30 02:00:00+00:00,Estadio Victoria,2017,Apertura,2,Necaxa,Club Tijuana
+293477,2020-02-23 03:00:00+00:00,Estadio BBVA Bancomer,2019,Clausura,7,Monterrey,Club America
+816474,2022-04-30 02:05:00+00:00,Estadio de Mazatlan,2021,Clausura,17,Mazatlan,Puebla
+974456,2023-04-30 23:00:00+00:00,Estadio La Corregidora,2022,Clausura,17,Club Queretaro,Pachuca
+169151,2019-09-15 02:06:00+00:00,Estadio Azteca,2019,Apertura,9,Club America,U.N.A.M. - Pumas
+143572,2017-11-18 23:00:00+00:00,Estadio Azul,2017,Apertura,17,Cruz Azul,Veracruz
+721816,2021-09-28 22:00:00+00:00,Estadio Victoria de Aguascalientes,2021,Apertura,11,Necaxa,Club Tijuana
+864126,2022-07-24 00:05:00+00:00,Estadio Azteca,2022,Apertura,4,Cruz Azul,Puebla
+1031358,2023-11-09 02:00:00+00:00,Estadio BBVA,2023,Apertura,10,Monterrey,Santos Laguna
+864162,2022-08-14 00:05:00+00:00,Estadio Olimpico de Universitario,2022,Apertura,8,U.N.A.M. - Pumas,Club America
+721731,2021-07-31 00:00:00+00:00,Estadio de Mazatlan,2021,Apertura,2,Mazatlan,Pachuca
+143277,2018-01-07 01:06:00+00:00,Estadio Hidalgo (Pachuca de Soto),2017,Clausura,1,Pachuca,U.N.A.M. - Pumas
+120303,2019-04-21 00:00:00+00:00,Estadio Universitario (UANL),2018,Clausura,15,Tigres UANL,Monarcas
+1150271,2024-02-18 22:00:00+00:00,Estadio Jalisco,2023,Clausura,7,Atlas,Leon
+169174,2019-09-29 00:00:00+00:00,Estadio Victoria de Aguascalientes,2019,Apertura,12,Necaxa,FC Juarez
+143856,2016-09-25 02:00:00+00:00,Estadio Azteca,2016,Apertura,11,Club America,U.N.A.M. - Pumas
+1206067,2024-09-18 01:00:00+00:00,Estadio Hidalgo,2024,Apertura,8,Pachuca,Toluca
+861500,2022-05-12 00:00:00+00:00,Estadio Alfonso Lastras Ramirez,2021,Clausura,Quarter-finals,Atletico San Luis,Pachuca
+1198551,2024-05-10 01:00:00+00:00,Estadio Olimpico Universitario,2023,Clausura,Quarter-finals,U.N.A.M. - Pumas,Cruz Azul
+143596,2016-12-04 01:00:00+00:00,Estadio Universitario (UANL),2016,Apertura,Semi-finals,Tigres UANL,Leon
+652918,2021-04-05 00:00:00+00:00,Estadio La Corregidora,2020,Clausura,13,Club Queretaro,Tigres UANL
+816385,2022-02-26 01:00:00+00:00,Estadio Victoria de Aguascalientes,2021,Clausura,7,Necaxa,Leon
+652887,2021-03-07 01:06:00+00:00,Estadio BBVA Bancomer,2020,Clausura,10,Monterrey,Club Queretaro
+143349,2018-02-25 01:00:00+00:00,Estadio Universitario de Nuevo Leon (San Nicolas de los Garza),2017,Clausura,9,Tigres UANL,Monarcas
+120391,2018-09-01 22:00:00+00:00,Estadio Azul,2018,Apertura,8,Cruz Azul,Veracruz
+974453,2023-04-30 01:05:00+00:00,Estadio AKRON,2022,Clausura,17,Guadalajara Chivas,Mazatlan
+169101,2019-08-10 22:00:00+00:00,Estadio La Corregidora,2019,Apertura,4,Club Queretaro,Pachuca
+1031337,2023-09-17 03:10:00+00:00,Estadio Azteca,2023,Apertura,8,Club America,Guadalajara Chivas
+291777,2019-12-06 02:30:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon,2019,Apertura,Semi-finals,Monarcas,Club America
+143579,2017-05-26 02:00:00+00:00,Estadio Universitario (UANL),2016,Clausura,Finals,Tigres UANL,Guadalajara Chivas
+1031413,2023-11-11 01:00:00+00:00,Estadio Jalisco,2023,Apertura,17,Atlas,Necaxa
+143616,2017-01-14 03:00:00+00:00,Estadio Caliente,2016,Clausura,2,Club Tijuana,Puebla
+569698,2020-08-16 02:06:00+00:00,Estadio BBVA Bancomer,2020,Apertura,5,Monterrey,Necaxa
+143417,2018-04-28 00:00:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon (Morelia),2017,Clausura,17,Monarcas,Necaxa
+721802,2021-09-20 02:06:00+00:00,Estadio Nuevo Corona,2021,Apertura,9,Santos Laguna,Puebla
+143892,2016-10-30 02:06:00+00:00,Estadio Akron,2016,Apertura,15,Guadalajara Chivas,Cruz Azul
+169194,2019-10-20 17:00:00+00:00,Estadio Olimpico de Universitario,2019,Apertura,14,U.N.A.M. - Pumas,Leon
+143907,2016-11-20 01:00:00+00:00,Estadio Universitario (UANL),2016,Apertura,17,Tigres UANL,Club Queretaro
+704703,2021-05-20 01:30:00+00:00,Estadio Hidalgo,2020,Clausura,Semi-finals,Pachuca,Cruz Azul
+721737,2021-07-31 22:00:00+00:00,Estadio Leon,2021,Apertura,2,Leon,Club Tijuana
+120312,2019-04-28 02:00:00+00:00,Estadio Akron,2018,Clausura,16,Guadalajara Chivas,Leon
+143278,2018-01-07 03:00:00+00:00,Estadio Victoria de Aguascalientes (Aguascalientes),2017,Clausura,1,Necaxa,Veracruz
+143322,2018-02-11 01:00:00+00:00,Estadio Universitario de Nuevo Leon (San Nicolas de los Garza),2017,Clausura,6,Tigres UANL,Club America
+864124,2022-07-23 02:05:00+00:00,Estadio Victoria de Aguascalientes,2022,Apertura,4,Necaxa,FC Juarez
+1031364,2023-10-05 01:00:00+00:00,Estadio Olimpico Universitario,2023,Apertura,11,U.N.A.M. - Pumas,Club Queretaro
+143492,2017-09-10 00:00:00+00:00,Estadio BBVA Bancomer,2017,Apertura,8,Monterrey,Necaxa
+293479,2020-02-23 23:00:00+00:00,Estadio La Corregidora,2019,Clausura,7,Club Queretaro,Atletico San Luis
+143437,2017-07-29 22:00:00+00:00,Estadio La Corregidora,2017,Apertura,2,Club Queretaro,Lobos Buap
+1031341,2023-09-17 18:00:00+00:00,Estadio Olimpico Universitario,2023,Apertura,8,U.N.A.M. - Pumas,Atletico San Luis
+1206119,2024-10-24 03:05:00+00:00,Estadio Caliente,2024,Apertura,13,Club Tijuana,Club America
+143297,2018-01-21 03:00:00+00:00,Estadio Victoria de Aguascalientes (Aguascalientes),2017,Clausura,3,Necaxa,Guadalajara Chivas
+143626,2017-01-21 23:00:00+00:00,Estadio Azul,2016,Clausura,3,Cruz Azul,Monterrey
+120363,2018-08-18 22:00:00+00:00,Estadio Azteca,2018,Apertura,5,Cruz Azul,Leon
+569740,2020-09-12 00:30:00+00:00,Estadio Victoria de Aguascalientes,2020,Apertura,10,Necaxa,Guadalajara Chivas
+569748,2020-09-15 02:00:00+00:00,Estadio Hidalgo,2020,Apertura,10,Pachuca,Monterrey
+721840,2021-10-20 00:00:00+00:00,Estadio Cuauhtemoc,2021,Apertura,14,Puebla,Mazatlan
+143496,2017-09-10 23:30:00+00:00,Estadio TSM Corona,2017,Apertura,8,Santos Laguna,Toluca
+143339,2018-02-18 01:06:00+00:00,Estadio Leon (Nou Camp) (Leon de los Aldamas),2017,Clausura,8,Leon,Club Queretaro
+652924,2021-04-11 02:05:00+00:00,Estadio Universitario de Nuevo Leon,2020,Clausura,14,Tigres UANL,Club America
+1031327,2023-09-04 02:00:00+00:00,Estadio Alfonso Lastras Ramirez,2023,Apertura,7,Atletico San Luis,Atlas
+120175,2019-01-05 23:06:00+00:00,Estadio BBVA Bancomer,2018,Clausura,1,Monterrey,Pachuca
+652926,2021-04-12 00:00:00+00:00,Estadio La Corregidora,2020,Clausura,14,Club Queretaro,Santos Laguna
+169116,2019-08-24 00:00:00+00:00,Estadio Luis de la Fuente,2019,Apertura,6,Veracruz,Atletico San Luis
+864168,2022-08-17 02:05:00+00:00,Estadio Cuauhtemoc,2022,Apertura,9,Puebla,Necaxa
+974332,2023-01-27 03:05:00+00:00,Estadio Jalisco,2022,Clausura,4,Atlas,Santos Laguna
+864157,2022-08-12 02:00:00+00:00,Estadio La Corregidora,2022,Apertura,8,Club Queretaro,Atletico San Luis
+143635,2017-01-28 23:00:00+00:00,Estadio La Corregidora,2016,Clausura,4,Club Queretaro,Guadalajara Chivas
+143657,2017-02-12 03:00:00+00:00,Estadio Azteca,2016,Clausura,6,Club America,Puebla
+864140,2022-07-30 22:00:00+00:00,Estadio Azteca,2022,Apertura,6,Cruz Azul,Necaxa
+652950,2021-05-02 22:00:00+00:00,Estadio AKRON,2020,Clausura,17,Guadalajara Chivas,Tigres UANL
+1206005,2024-07-06 03:10:00+00:00,Estadio Olimpico Benito Juarez,2024,Apertura,1,FC Juarez,Atlas
+721829,2021-10-04 00:00:00+00:00,Estadio Universitario de Nuevo Leon,2021,Apertura,12,Tigres UANL,Necaxa
+864177,2022-08-20 22:00:00+00:00,Estadio La Corregidora,2022,Apertura,10,Club Queretaro,Club Tijuana
+721860,2021-10-30 23:00:00+00:00,Estadio La Corregidora,2021,Apertura,16,Club Queretaro,Santos Laguna
+120368,2018-08-19 17:00:00+00:00,Estadio Nemesio Diez,2018,Apertura,5,Toluca,Club Tijuana
+1206032,2024-07-20 23:05:00+00:00,Estadio AKRON,2024,Apertura,4,Guadalajara Chivas,Mazatlan
+143426,2017-07-22 00:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2017,Apertura,1,Monarcas,Monterrey
+974347,2023-02-05 18:00:00+00:00,Estadio Olimpico de Universitario,2022,Clausura,5,U.N.A.M. - Pumas,Atlas
+169074,2019-07-20 22:00:00+00:00,Estadio Hidalgo,2019,Apertura,1,Pachuca,Leon
+120353,2018-08-11 02:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2018,Apertura,4,Monarcas,Necaxa
+143624,2017-01-16 00:00:00+00:00,Estadio TSM Corona,2016,Clausura,2,Santos Laguna,Veracruz
+143520,2017-09-28 00:06:00+00:00,Estadio Leon,2017,Apertura,11,Leon,Club America
+704705,2021-05-21 02:00:00+00:00,Estadio Nuevo Corona,2020,Clausura,Semi-finals,Santos Laguna,Puebla
+1150299,2024-03-04 01:00:00+00:00,Estadio BBVA,2023,Clausura,10,Monterrey,U.N.A.M. - Pumas
+143505,2017-09-17 17:00:00+00:00,Estadio Nemesio Diez,2017,Apertura,9,Toluca,Club Queretaro
+143683,2017-03-05 01:06:00+00:00,Estadio Leon,2016,Clausura,9,Leon,Club America
+143696,2017-04-14 02:00:00+00:00,Estadio Nemesio Diez,2016,Clausura,10,Toluca,Cruz Azul
+1026497,2023-05-12 03:10:00+00:00,Estadio Universitario de Nuevo Leon,2022,Clausura,Quarter-finals,Tigres UANL,Toluca
+120248,2019-03-03 01:00:00+00:00,Estadio Universitario (UANL),2018,Clausura,9,Tigres UANL,Pachuca
+143285,2018-01-13 23:00:00+00:00,Estadio Azteca (Ciudad de Mexico (D.F.)),2017,Clausura,2,Club America,Pachuca
+143852,2016-09-25 00:00:00+00:00,Estadio Universitario (UANL),2016,Apertura,11,Tigres UANL,Cruz Azul
+1206134,2024-11-03 01:05:00+00:00,Estadio AKRON,2024,Apertura,15,Guadalajara Chivas,U.N.A.M. - Pumas
+143458,2017-08-13 00:06:00+00:00,Estadio Miguel Hidalgo,2017,Apertura,4,Pachuca,Tigres UANL
+143473,2017-08-23 02:00:00+00:00,Estadio Olimpico Universitario,2017,Apertura,6,U.N.A.M. - Pumas,Monarcas
+143827,2016-09-11 00:06:00+00:00,Estadio Leon,2016,Apertura,8,Leon,Atlas
+1206089,2024-09-29 01:05:00+00:00,Estadio Hidalgo,2024,Apertura,10,Pachuca,Cruz Azul
+864139,2022-07-30 02:05:00+00:00,Estadio Olimpico Benito Juarez,2022,Apertura,6,FC Juarez,Toluca
+816466,2022-04-23 22:00:00+00:00,Estadio Hidalgo,2021,Clausura,16,Pachuca,Monterrey
+816433,2022-04-03 17:00:00+00:00,Estadio Nemesio Diez,2021,Clausura,12,Toluca,Puebla
+143528,2017-09-30 22:00:00+00:00,Estadio La Corregidora,2017,Apertura,12,Club Queretaro,Monterrey
+721758,2021-08-18 00:00:00+00:00,Estadio Universitario de Nuevo Leon,2021,Apertura,5,Tigres UANL,Club Queretaro
+569807,2020-11-08 03:00:00+00:00,Estadio Azteca,2020,Apertura,17,Cruz Azul,U.N.A.M. - Pumas
+721781,2021-08-29 17:00:00+00:00,Estadio Nemesio Diez,2021,Apertura,7,Toluca,U.N.A.M. - Pumas
+721744,2021-08-08 00:00:00+00:00,Estadio Azteca,2021,Apertura,3,Club America,Puebla
+1024695,2023-05-06 23:00:00+00:00,Estadio Azteca,2022,Clausura,Reclasificacion,Cruz Azul,Atlas
+864184,2022-08-27 00:00:00+00:00,Estadio Cuauhtemoc,2022,Apertura,11,Puebla,FC Juarez
+169162,2019-09-25 00:00:00+00:00,Estadio Universitario de Nuevo Leon,2019,Apertura,11,Tigres UANL,Puebla
+973616,2023-01-09 01:00:00+00:00,Estadio Nuevo Corona,2022,Clausura,1,Santos Laguna,Tigres UANL
+1031344,2023-09-19 03:00:00+00:00,Estadio Hidalgo,2023,Apertura,8,Pachuca,Santos Laguna
+570961,2020-07-27 23:00:00+00:00,Estadio Alfonso Lastras Ramirez,2020,Apertura,1,Atletico San Luis,FC Juarez
+143559,2017-10-29 18:00:00+00:00,Estadio Nemesio Diez,2017,Apertura,15,Toluca,Monarcas
+291437,2019-12-01 03:05:00+00:00,Estadio La Corregidora,2019,Apertura,Quarter-finals,Club Queretaro,Necaxa
+1150341,2024-04-14 01:05:00+00:00,Estadio Azteca,2023,Clausura,15,Club America,Toluca
+120278,2019-03-31 18:00:00+00:00,Estadio Olimpico Universitario,2018,Clausura,12,U.N.A.M. - Pumas,Guadalajara Chivas
+861503,2022-05-14 23:00:00+00:00,Estadio Azteca,2021,Clausura,Quarter-finals,Club America,Puebla
+169210,2019-10-31 01:00:00+00:00,Estadio Hidalgo,2019,Apertura,16,Pachuca,Monterrey
+1150243,2024-01-31 03:05:00+00:00,Estadio AKRON,2023,Clausura,4,Guadalajara Chivas,Toluca
+143490,2017-09-09 22:00:00+00:00,Estadio Universitario BUAP,2017,Apertura,8,Lobos Buap,Monarcas
+1150254,2024-02-05 00:00:00+00:00,Estadio Jalisco,2023,Clausura,5,Atlas,Santos Laguna
+120413,2018-09-23 23:00:00+00:00,Estadio TSM Corona,2018,Apertura,10,Santos Laguna,Veracruz
+120165,2018-12-02 01:00:00+00:00,Estadio Azteca,2018,Apertura,Quarter-finals,Cruz Azul,Club Queretaro
+569752,2020-09-20 00:00:00+00:00,Estadio Jalisco,2020,Apertura,11,Atlas,Pachuca
+1031352,2023-09-25 02:05:00+00:00,Estadio Corona,2023,Apertura,9,Santos Laguna,Necaxa
+120251,2019-03-03 22:00:00+00:00,Estadio Universitario BUAP,2018,Clausura,9,Lobos Buap,U.N.A.M. - Pumas
+569723,2020-09-04 02:00:00+00:00,Estadio Hidalgo,2020,Apertura,8,Pachuca,Atletico San Luis
+169097,2019-08-05 00:00:00+00:00,Estadio Olimpico Benito Juarez,2019,Apertura,3,FC Juarez,Toluca
+1031373,2023-10-08 01:00:00+00:00,Estadio AKRON,2023,Apertura,12,Guadalajara Chivas,Atlas
+169111,2019-08-18 02:05:00+00:00,Estadio Azteca,2019,Apertura,5,Club America,Monarcas
+1150265,2024-02-17 01:00:00+00:00,Estadio Corregidora,2023,Clausura,7,Club Queretaro,Necaxa
+143332,2018-02-15 02:45:00+00:00,Estadio BBVA Bancomer (Guadalupe),2017,Clausura,7,Monterrey,Cruz Azul
+816411,2022-03-12 01:00:00+00:00,Estadio Victoria de Aguascalientes,2021,Clausura,10,Necaxa,Club Queretaro
+143877,2016-10-22 02:00:00+00:00,Estadio Caliente,2016,Apertura,14,Club Tijuana,Jaguares de Chiapas
+721851,2021-10-24 17:00:00+00:00,Estadio Olimpico de Universitario,2021,Apertura,15,U.N.A.M. - Pumas,Club Tijuana
+816481,2022-05-02 01:06:00+00:00,Estadio Leon,2021,Clausura,17,Leon,Toluca
+143354,2018-03-03 03:00:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon (Morelia),2017,Clausura,10,Monarcas,Atlas
+569727,2020-09-06 00:00:00+00:00,Estadio Jalisco,2020,Apertura,8,Atlas,Cruz Azul
+120212,2019-02-03 01:00:00+00:00,Estadio Universitario (UANL),2018,Clausura,5,Tigres UANL,Santos Laguna
+974455,2023-04-30 18:00:00+00:00,Estadio Nemesio Diez,2022,Clausura,17,Toluca,Necaxa
+864165,2022-08-15 00:05:00+00:00,Estadio Universitario de Nuevo Leon,2022,Apertura,8,Tigres UANL,Santos Laguna
+569717,2020-08-30 00:00:00+00:00,Estadio AKRON,2020,Apertura,7,Guadalajara Chivas,Pachuca
+1031393,2023-10-29 18:00:00+00:00,Estadio Nemesio Diez,2023,Apertura,14,Toluca,Atletico San Luis
+1206023,2024-07-17 03:00:00+00:00,Estadio Cuauhtemoc,2024,Apertura,3,Puebla,Leon
+1206085,2024-09-28 01:00:00+00:00,Estadio Corregidora,2024,Apertura,10,Club Queretaro,Necaxa
+864150,2022-08-06 02:05:00+00:00,Estadio de Mazatlan,2022,Apertura,7,Mazatlan,Guadalajara Chivas
+721845,2021-10-21 00:00:00+00:00,Estadio Leon,2021,Apertura,14,Leon,U.N.A.M. - Pumas
+169134,2019-08-31 00:00:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon,2019,Apertura,8,Monarcas,Veracruz
+721830,2021-10-15 01:00:00+00:00,Estadio La Corregidora,2021,Apertura,13,Club Queretaro,Club Tijuana
+143731,2017-04-16 17:00:00+00:00,Estadio Nemesio Diez,2016,Clausura,14,Toluca,Monterrey
+143682,2017-03-05 01:00:00+00:00,Estadio BBVA Bancomer,2016,Clausura,9,Monterrey,Club Queretaro
+169239,2019-11-24 03:00:00+00:00,Estadio AKRON,2019,Apertura,19,Guadalajara Chivas,Veracruz
+1145602,2023-12-08 03:00:00+00:00,Estadio Olimpico Universitario,2023,Apertura,Semi-finals,U.N.A.M. - Pumas,Tigres UANL
+120449,2018-10-28 18:00:00+00:00,Estadio Nemesio Diez,2018,Apertura,14,Toluca,Club Queretaro
+974430,2023-04-10 02:10:00+00:00,Estadio Olimpico Benito Juarez,2022,Clausura,14,FC Juarez,Atlas
+1031399,2023-11-02 01:00:00+00:00,Estadio Jalisco,2023,Apertura,15,Atlas,Pachuca
+652845,2021-02-07 03:06:00+00:00,Estadio BBVA Bancomer,2020,Clausura,5,Monterrey,U.N.A.M. - Pumas
+569734,2020-09-09 02:00:00+00:00,Estadio AKRON,2020,Apertura,9,Guadalajara Chivas,Club Queretaro
+120339,2018-07-29 17:00:00+00:00,Estadio Olimpico Universitario,2018,Apertura,2,U.N.A.M. - Pumas,Necaxa
+569688,2020-08-12 02:00:00+00:00,Estadio Universitario de Nuevo Leon,2020,Apertura,4,Tigres UANL,Puebla
+1206070,2024-09-18 01:00:00+00:00,Estadio Ciudad de los Deportes,2024,Apertura,8,Club America,Atlas
+143518,2017-09-27 02:30:00+00:00,Estadio Luis Pirata Fuente,2017,Apertura,11,Veracruz,Monarcas
+974366,2023-02-23 02:05:00+00:00,Estadio Azteca,2022,Clausura,7,Cruz Azul,Atlas
+864216,2022-09-11 02:05:00+00:00,Estadio AKRON,2022,Apertura,14,Guadalajara Chivas,Puebla
+721803,2021-09-24 02:00:00+00:00,Estadio Hidalgo,2021,Apertura,10,Pachuca,Necaxa
+169110,2019-08-18 00:00:00+00:00,Estadio Leon,2019,Apertura,5,Leon,Guadalajara Chivas
+1206014,2024-07-13 03:00:00+00:00,Estadio Caliente,2024,Apertura,2,Club Tijuana,Guadalajara Chivas
+143821,2016-08-28 22:00:00+00:00,Estadio Victor Manuel Reyna,2016,Apertura,7,Jaguares de Chiapas,Puebla
+169086,2019-07-28 22:00:00+00:00,Estadio Alfonso Lastras Ramirez,2019,Apertura,2,Atletico San Luis,Monterrey
+125286,2019-05-12 02:06:00+00:00,Estadio Leon,2018,Clausura,Quarter-finals,Leon,Club Tijuana
+1150353,2024-04-22 00:00:00+00:00,Estadio Ciudad de los Deportes,2023,Clausura,16,Cruz Azul,Atlas
+721871,2021-11-07 03:00:00+00:00,Estadio Universitario de Nuevo Leon,2021,Apertura,17,Tigres UANL,FC Juarez
+169223,2019-11-04 02:00:00+00:00,Estadio Leon,2019,Apertura,17,Leon,Monarcas
+143511,2017-10-18 02:30:00+00:00,Estadio Jalisco,2017,Apertura,10,Atlas,Monarcas
+143303,2018-01-28 01:00:00+00:00,Estadio Universitario de Nuevo Leon (San Nicolas de los Garza),2017,Clausura,4,Tigres UANL,Pachuca
+816423,2022-03-19 23:00:00+00:00,Estadio Olimpico de Universitario,2021,Clausura,11,U.N.A.M. - Pumas,Necaxa
+143264,2017-12-04 00:00:00+00:00,Estadio BBVA Bancomer (Guadalupe),2017,Apertura,Semi-finals,Monterrey,Monarcas
+169112,2019-08-18 02:06:00+00:00,Estadio BBVA Bancomer,2019,Apertura,5,Monterrey,Toluca
+169193,2019-10-20 02:00:00+00:00,Estadio Victoria de Aguascalientes,2019,Apertura,14,Necaxa,Club America
+816442,2022-04-10 00:00:00+00:00,Estadio Nemesio Diez,2021,Clausura,13,Toluca,Guadalajara Chivas
+120346,2018-08-05 00:00:00+00:00,Estadio Miguel Hidalgo,2018,Apertura,3,Pachuca,Club America
+143352,2018-02-25 18:00:00+00:00,Estadio Olimpico de Universitario (Ciudad de Mexico (D.F.)),2017,Clausura,9,U.N.A.M. - Pumas,Guadalajara Chivas
+143910,2016-11-20 03:00:00+00:00,Estadio Akron,2016,Apertura,17,Guadalajara Chivas,Necaxa
+169237,2019-11-24 01:00:00+00:00,Estadio BBVA Bancomer,2019,Apertura,19,Monterrey,Atlas
+652948,2021-05-01 00:30:00+00:00,Estadio Victoria de Aguascalientes,2020,Clausura,17,Necaxa,Atlas
+569673,2020-08-02 17:00:00+00:00,Estadio Nemesio Diez,2020,Apertura,2,Toluca,Atletico San Luis
+974372,2023-02-19 01:05:00+00:00,Estadio Jalisco,2022,Clausura,8,Atlas,Tigres UANL
+1206122,2024-10-27 00:00:00+00:00,Estadio Leon,2024,Apertura,14,Leon,Club Queretaro
+652836,2021-01-31 18:00:00+00:00,Estadio Olimpico de Universitario,2020,Clausura,4,U.N.A.M. - Pumas,Atlas
+652873,2021-03-01 01:06:00+00:00,Estadio Nuevo Corona,2020,Clausura,8,Santos Laguna,FC Juarez
+816475,2022-04-30 22:00:00+00:00,Estadio La Corregidora,2021,Clausura,17,Club Queretaro,FC Juarez
+1206046,2024-08-25 03:05:00+00:00,Estadio Ciudad de los Deportes,2024,Apertura,5,Club America,Puebla
+1142059,2023-11-24 01:00:00+00:00,Estadio Alfonso Lastras Ramirez,2023,Apertura,Reclasificacion,Atletico San Luis,Leon
+1031369,2023-10-26 03:06:00+00:00,Estadio Olimpico Benito Juarez,2023,Apertura,11,FC Juarez,Atletico San Luis
+721846,2021-10-21 02:00:00+00:00,Estadio Universitario de Nuevo Leon,2021,Apertura,14,Tigres UANL,Pachuca
+816381,2022-02-21 00:05:00+00:00,Estadio Nemesio Diez,2021,Clausura,6,Toluca,Cruz Azul
+721810,2021-09-25 22:00:00+00:00,Estadio Jalisco,2021,Apertura,10,Atlas,Leon
+1150228,2024-01-22 02:05:00+00:00,Estadio Corona,2023,Clausura,2,Santos Laguna,Monterrey
+143804,2016-08-14 23:00:00+00:00,Estadio TSM Corona,2016,Apertura,5,Santos Laguna,Guadalajara Chivas
+120331,2018-07-22 17:00:00+00:00,Estadio Nemesio Diez,2018,Apertura,1,Toluca,Monarcas
+120268,2019-03-17 18:00:00+00:00,Estadio Nemesio Diez,2018,Clausura,11,Toluca,Atlas
+569670,2020-08-02 02:00:00+00:00,Estadio Olimpico de Universitario,2020,Apertura,2,Club America,Club Tijuana
+1150310,2024-03-16 01:00:00+00:00,Estadio Corregidora,2023,Clausura,12,Club Queretaro,FC Juarez
+1031305,2023-08-19 01:06:00+00:00,Estadio Leon,2023,Apertura,4,Leon,Mazatlan
+1150298,2024-03-03 03:10:00+00:00,Estadio Jalisco,2023,Clausura,10,Atlas,Club America
+143637,2017-01-29 01:00:00+00:00,Estadio BBVA Bancomer,2016,Clausura,4,Monterrey,Leon
+120257,2019-03-10 01:00:00+00:00,Estadio BBVA Bancomer,2018,Clausura,10,Monterrey,Tigres UANL
+864123,2022-07-23 00:00:00+00:00,Estadio de Mazatlan,2022,Apertura,4,Mazatlan,Atletico San Luis
+1206116,2024-10-24 01:00:00+00:00,Estadio Ciudad de los Deportes,2024,Apertura,13,Cruz Azul,FC Juarez
+862203,2022-05-19 02:00:00+00:00,Estadio Jalisco,2021,Clausura,Semi-finals,Atlas,Tigres UANL
+721769,2021-08-22 02:00:00+00:00,Estadio Alfonso Lastras Ramirez,2021,Apertura,6,Atletico San Luis,Cruz Azul
+169147,2019-09-15 00:00:00+00:00,Estadio Leon,2019,Apertura,9,Leon,FC Juarez
+721849,2021-10-24 00:00:00+00:00,Estadio Azteca,2021,Apertura,15,Club America,Tigres UANL
+816388,2022-02-27 23:06:00+00:00,Estadio BBVA,2021,Clausura,7,Monterrey,Atletico San Luis
+974324,2023-01-21 03:10:00+00:00,Estadio Caliente,2022,Clausura,3,Club Tijuana,Tigres UANL
+968248,2022-10-31 01:36:00+00:00,Estadio Hidalgo,2022,Apertura,Final,Pachuca,Toluca
+169076,2019-07-21 00:05:00+00:00,Estadio Azteca,2019,Apertura,1,Club America,Monterrey
+864137,2022-07-28 02:05:00+00:00,Estadio Olimpico de Universitario,2022,Apertura,5,U.N.A.M. - Pumas,Mazatlan
+864183,2022-08-22 00:05:00+00:00,Estadio Hidalgo,2022,Apertura,10,Pachuca,Leon
+569682,2020-08-09 00:06:00+00:00,Estadio BBVA Bancomer,2020,Apertura,3,Monterrey,Santos Laguna
+292002,2019-12-27 02:36:00+00:00,Estadio BBVA Bancomer,2019,Apertura,Finals,Monterrey,Club America
+974416,2023-04-02 01:05:00+00:00,Estadio Azteca,2022,Clausura,13,Club America,Leon
+120190,2019-01-19 03:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2018,Clausura,3,Monarcas,Veracruz
+143838,2016-09-18 00:06:00+00:00,Estadio Miguel Hidalgo,2016,Apertura,9,Pachuca,Club Tijuana
+1206113,2024-10-23 03:06:00+00:00,Estadio El Encanto,2024,Apertura,13,Mazatlan,Tigres UANL
+1150227,2024-01-22 00:00:00+00:00,Estadio Universitario,2023,Clausura,2,Tigres UANL,Guadalajara Chivas
+120435,2018-10-21 00:00:00+00:00,Estadio Miguel Hidalgo,2018,Apertura,13,Pachuca,Santos Laguna
+569722,2020-09-04 00:00:00+00:00,Estadio La Corregidora,2020,Apertura,8,Club Queretaro,Toluca
+143850,2016-09-24 02:00:00+00:00,Estadio Luis Pirata Fuente,2016,Apertura,11,Veracruz,Guadalajara Chivas
+864243,2022-10-02 02:05:00+00:00,Estadio Azteca,2022,Apertura,17,Cruz Azul,Guadalajara Chivas
+1031407,2023-11-05 03:05:00+00:00,Estadio AKRON,2023,Apertura,16,Guadalajara Chivas,Cruz Azul
+652869,2021-02-27 23:00:00+00:00,Estadio Nemesio Diez,2020,Clausura,8,Toluca,Atlas
+1031343,2023-09-18 01:00:00+00:00,Estadio Jalisco,2023,Apertura,8,Atlas,Tigres UANL
+143514,2017-10-19 02:00:00+00:00,Estadio Cuauhtemoc,2017,Apertura,10,Puebla,Monterrey
+169141,2019-09-01 22:00:00+00:00,Estadio La Corregidora,2019,Apertura,8,Club Queretaro,Puebla
+143279,2018-01-07 18:00:00+00:00,Estadio Nemesio Diez (Toluca de Lerdo),2017,Clausura,1,Toluca,Guadalajara Chivas
+864221,2022-09-17 02:00:00+00:00,Estadio de Mazatlan,2022,Apertura,15,Mazatlan,Toluca
+861505,2022-05-16 01:05:00+00:00,Estadio Universitario de Nuevo Leon,2021,Clausura,Quarter-finals,Tigres UANL,Cruz Azul
+721801,2021-09-20 00:00:00+00:00,Estadio Azteca,2021,Apertura,9,Cruz Azul,Club Queretaro
+120256,2019-03-10 01:00:00+00:00,Estadio Azteca,2018,Clausura,10,Club America,Puebla
+721785,2021-09-11 00:00:00+00:00,Estadio Cuauhtemoc,2021,Apertura,8,Puebla,Atletico San Luis
+120466,2018-11-11 03:00:00+00:00,Estadio Caliente,2018,Apertura,16,Club Tijuana,Monarcas
+143252,2018-05-06 00:00:00+00:00,Estadio Azteca (Ciudad de Mexico (D.F.)),2017,Clausura,Quarter-finals,Club America,U.N.A.M. - Pumas
+1031368,2023-10-05 03:00:00+00:00,Estadio Corona,2023,Apertura,11,Santos Laguna,Club Tijuana
+120164,2018-11-29 01:00:00+00:00,Estadio La Corregidora,2018,Apertura,Quarter-finals,Club Queretaro,Cruz Azul
+721786,2021-09-11 02:06:00+00:00,Estadio Caliente,2021,Apertura,8,Club Tijuana,Santos Laguna
+120289,2019-04-13 02:00:00+00:00,Estadio Cuauhtemoc,2018,Clausura,14,Puebla,Leon
+974357,2023-02-12 03:05:00+00:00,Estadio Hidalgo,2022,Clausura,6,Pachuca,Guadalajara Chivas
+1206004,2024-07-05 22:45:00+00:00,Estadio Cuauhtemoc,2024,Apertura,1,Puebla,Santos Laguna
+569711,2020-08-24 00:35:00+00:00,Estadio Alfonso Lastras Ramirez,2020,Apertura,6,Atletico San Luis,Cruz Azul
+816477,2022-05-01 00:06:00+00:00,Estadio BBVA,2021,Clausura,17,Monterrey,Club Tijuana
+973614,2023-01-08 03:10:00+00:00,Estadio BBVA,2022,Clausura,1,Monterrey,Guadalajara Chivas
+1150294,2024-03-02 03:00:00+00:00,Estadio El Encanto,2023,Clausura,10,Mazatlan,Necaxa
+143806,2016-08-20 22:00:00+00:00,Estadio Azul,2016,Apertura,6,Cruz Azul,Santos Laguna
+1150303,2024-03-09 03:00:00+00:00,Estadio Victoria,2023,Clausura,11,Necaxa,Atletico San Luis
+1206047,2024-08-25 18:00:00+00:00,Estadio Nemesio Diez,2024,Apertura,5,Toluca,Atletico San Luis
+169231,2019-11-10 18:00:00+00:00,Estadio Olimpico de Universitario,2019,Apertura,18,U.N.A.M. - Pumas,FC Juarez
+721805,2021-10-09 00:00:00+00:00,Estadio Olimpico Benito Juarez,2021,Apertura,10,FC Juarez,Club Queretaro
+143745,2017-04-30 00:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2016,Clausura,16,Monarcas,U.N.A.M. - Pumas
+864246,2022-10-03 01:00:00+00:00,Estadio Leon,2022,Apertura,17,Leon,Club Tijuana
+143358,2018-03-04 01:06:00+00:00,Estadio Leon (Nou Camp) (Leon de los Aldamas),2017,Clausura,10,Leon,U.N.A.M. - Pumas
+702940,2021-05-17 01:05:00+00:00,Estadio Azteca,2020,Clausura,Quarter-finals,Club America,Pachuca
+974405,2023-03-18 03:05:00+00:00,Estadio de Mazatlan,2022,Clausura,12,Mazatlan,Necaxa
+143684,2017-03-05 03:00:00+00:00,Estadio Victoria,2016,Clausura,9,Necaxa,Atlas
+1206097,2024-10-06 01:05:00+00:00,Estadio AKRON,2024,Apertura,11,Guadalajara Chivas,Atlas
+120467,2018-11-11 18:00:00+00:00,Estadio Nemesio Diez,2018,Apertura,16,Toluca,U.N.A.M. - Pumas
+1206104,2024-10-19 03:00:00+00:00,Estadio Victoria,2024,Apertura,12,Necaxa,Club Tijuana
+143769,2016-07-23 02:00:00+00:00,Estadio Luis Pirata Fuente,2016,Apertura,2,Veracruz,Santos Laguna
+143334,2018-02-15 03:00:00+00:00,Estadio Cuauhtemoc (Puebla),2017,Clausura,7,Puebla,Toluca
+652870,2021-02-28 01:00:00+00:00,Estadio Azteca,2020,Clausura,8,Club America,Pachuca
+120296,2019-04-14 23:00:00+00:00,Estadio Azteca,2018,Clausura,14,Club America,Cruz Azul
+974393,2023-03-05 18:00:00+00:00,Estadio Olimpico de Universitario,2022,Clausura,10,U.N.A.M. - Pumas,Puebla
+120317,2019-05-04 22:00:00+00:00,Estadio Azteca,2018,Clausura,17,Cruz Azul,Monarcas
+143882,2016-10-23 02:00:00+00:00,Estadio Victoria,2016,Apertura,14,Necaxa,Veracruz
+652839,2021-02-05 01:00:00+00:00,Estadio Alfonso Lastras Ramirez,2020,Clausura,5,Atletico San Luis,Club Tijuana
+143298,2018-01-21 18:00:00+00:00,Estadio Olimpico de Universitario (Ciudad de Mexico (D.F.)),2017,Clausura,3,U.N.A.M. - Pumas,Club America
+974391,2023-03-05 01:05:00+00:00,Estadio Azteca,2022,Clausura,10,Club America,Pachuca
+569669,2020-08-01 02:30:00+00:00,Estadio Olimpico Benito Juarez,2020,Apertura,2,FC Juarez,Necaxa
+143836,2016-09-18 00:00:00+00:00,Estadio Jalisco,2016,Apertura,9,Atlas,Necaxa
+143498,2017-09-16 00:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2017,Apertura,9,Monarcas,Tigres UANL
+967074,2022-10-24 01:06:00+00:00,Estadio BBVA,2022,Apertura,Semi-finals,Monterrey,Pachuca
+1150349,2024-04-20 23:00:00+00:00,Estadio Leon,2023,Clausura,16,Leon,Monterrey
+169113,2019-08-18 17:00:00+00:00,Estadio Olimpico de Universitario,2019,Apertura,5,U.N.A.M. - Pumas,Veracruz
+143466,2017-08-20 00:00:00+00:00,Estadio Universitario (UANL),2017,Apertura,5,Tigres UANL,U.N.A.M. - Pumas
+974426,2023-04-09 01:05:00+00:00,Estadio Universitario de Nuevo Leon,2022,Clausura,14,Tigres UANL,Mazatlan
+120350,2018-08-05 23:00:00+00:00,Estadio TSM Corona,2018,Apertura,3,Santos Laguna,Puebla
+1150217,2024-01-14 18:00:00+00:00,Estadio Olimpico Universitario,2023,Clausura,1,U.N.A.M. - Pumas,FC Juarez
+143758,2017-05-07 17:00:00+00:00,Estadio Olimpico Universitario,2016,Clausura,17,U.N.A.M. - Pumas,Puebla
+721874,2021-11-08 01:06:00+00:00,Estadio Nuevo Corona,2021,Apertura,17,Santos Laguna,Atletico San Luis
+864223,2022-09-18 00:05:00+00:00,Estadio BBVA,2022,Apertura,15,Monterrey,Atlas
+569703,2020-08-18 02:00:00+00:00,Estadio Leon,2020,Apertura,5,Leon,Club Tijuana
+293462,2020-02-10 02:00:00+00:00,Estadio Olimpico Benito Juarez,2019,Clausura,5,FC Juarez,Necaxa
+652946,2021-04-27 02:00:00+00:00,Estadio Hidalgo,2020,Clausura,16,Pachuca,Santos Laguna
+1031301,2023-07-17 02:15:00+00:00,Estadio Hidalgo,2023,Apertura,3,Pachuca,U.N.A.M. - Pumas
+143582,2017-05-21 23:06:00+00:00,Estadio Akron,2016,Clausura,Semi-finals,Guadalajara Chivas,Toluca
+143316,2018-02-04 03:00:00+00:00,Estadio Victoria de Aguascalientes (Aguascalientes),2017,Clausura,5,Necaxa,Toluca
+143693,2017-04-13 02:00:00+00:00,Estadio Azteca,2016,Clausura,10,Club America,Necaxa
+1200175,2024-05-20 00:00:00+00:00,Estadio Ciudad de los Deportes,2023,Clausura,Semi-finals,Cruz Azul,Monterrey
+652824,2021-03-11 03:00:00+00:00,Estadio BBVA Bancomer,2020,Clausura,3,Monterrey,Leon
+569794,2020-10-30 03:00:00+00:00,Estadio Alfonso Lastras Ramirez,2020,Apertura,16,Atletico San Luis,Mazatlan
+143886,2016-10-29 02:00:00+00:00,Estadio Luis Pirata Fuente,2016,Apertura,15,Veracruz,U.N.A.M. - Pumas
+143445,2017-08-05 02:00:00+00:00,Estadio Caliente,2017,Apertura,3,Club Tijuana,Monterrey
+1315385,2024-11-29 03:10:00+00:00,Estadio BBVA,2024,Apertura,Quarter-finals,Monterrey,U.N.A.M. - Pumas
+569720,2020-08-31 00:06:00+00:00,Estadio Nuevo Corona,2020,Apertura,7,Santos Laguna,Club Queretaro
+816476,2022-05-01 00:00:00+00:00,Estadio Jalisco,2021,Clausura,17,Atlas,Tigres UANL
+974346,2023-02-05 03:05:00+00:00,Estadio Nuevo Corona,2022,Clausura,5,Santos Laguna,Club America
+169173,2019-09-29 00:06:00+00:00,Estadio BBVA Bancomer,2019,Apertura,12,Monterrey,Tigres UANL
+1206147,2024-11-09 01:00:00+00:00,Estadio Corregidora,2024,Apertura,17,Club Queretaro,Santos Laguna
+1031299,2023-07-16 03:05:00+00:00,Estadio Universitario,2023,Apertura,3,Tigres UANL,Leon
+1031345,2023-09-23 01:00:00+00:00,Estadio Alfonso Lastras Ramirez,2023,Apertura,9,Atletico San Luis,Mazatlan
+816356,2022-02-05 23:00:00+00:00,Estadio Victoria de Aguascalientes,2021,Clausura,4,Necaxa,Pachuca
+143824,2016-09-10 22:00:00+00:00,Estadio Azul,2016,Apertura,8,Cruz Azul,Club America
+293448,2020-02-02 03:00:00+00:00,Estadio Azteca,2019,Clausura,4,Club America,FC Juarez
+1031406,2023-11-05 01:00:00+00:00,Estadio Azteca,2023,Apertura,16,Club America,Club Tijuana
+652871,2021-02-28 03:00:00+00:00,Estadio Leon,2020,Clausura,8,Leon,Cruz Azul
+143712,2017-04-02 03:00:00+00:00,Estadio Azteca,2016,Clausura,12,Club America,Monterrey
+864199,2022-09-04 00:05:00+00:00,Estadio Jalisco,2022,Apertura,12,Atlas,U.N.A.M. - Pumas
+721776,2021-08-28 02:00:00+00:00,Estadio Cuauhtemoc,2021,Apertura,7,Puebla,Club Queretaro
+1150231,2024-01-27 23:00:00+00:00,Estadio Ciudad de los Deportes,2023,Clausura,3,Cruz Azul,Mazatlan
+1150264,2024-02-11 18:00:00+00:00,Estadio Olimpico Universitario,2023,Clausura,6,U.N.A.M. - Pumas,Puebla
+143470,2017-08-20 17:00:00+00:00,Estadio Nemesio Diez,2017,Apertura,5,Toluca,Necaxa
+1025953,2023-05-14 01:06:00+00:00,Estadio BBVA,2022,Clausura,Quarter-finals,Monterrey,Santos Laguna
+120269,2019-03-18 00:06:00+00:00,Estadio TSM Corona,2018,Clausura,11,Santos Laguna,Necaxa
+120437,2018-10-21 02:00:00+00:00,Estadio Victoria,2018,Apertura,13,Necaxa,Leon
+293432,2020-01-19 03:00:00+00:00,Estadio Azteca,2019,Clausura,2,Club America,Tigres UANL
+816451,2022-04-17 00:00:00+00:00,Estadio Nuevo Corona,2021,Clausura,14,Santos Laguna,Club Queretaro
+721740,2021-08-06 02:00:00+00:00,Estadio La Corregidora,2021,Apertura,3,Club Queretaro,Leon
+120443,2018-10-27 02:05:00+00:00,Estadio Luis Pirata Fuente,2018,Apertura,14,Veracruz,Pachuca
+721831,2021-10-16 00:00:00+00:00,Estadio Victoria de Aguascalientes,2021,Apertura,13,Necaxa,Puebla
+1206091,2024-09-29 03:10:00+00:00,Estadio Alfonso Lastras Ramirez,2024,Apertura,10,Atletico San Luis,Santos Laguna
+569737,2020-09-10 00:00:00+00:00,Estadio Azteca,2020,Apertura,9,Cruz Azul,Pachuca
+974336,2023-01-29 01:05:00+00:00,Estadio Universitario de Nuevo Leon,2022,Clausura,4,Tigres UANL,Atletico San Luis
+143467,2017-08-20 00:00:00+00:00,Estadio Luis Pirata Fuente,2017,Apertura,5,Veracruz,Club Queretaro
+143471,2017-08-23 00:06:00+00:00,Estadio Miguel Hidalgo,2017,Apertura,6,Pachuca,Veracruz
+974423,2023-04-08 03:10:00+00:00,Estadio Caliente,2022,Clausura,14,Club Tijuana,Club Queretaro
+974382,2023-02-26 18:00:00+00:00,Estadio Nemesio Diez,2022,Clausura,9,Toluca,Atletico San Luis
+120422,2018-09-30 21:00:00+00:00,Estadio Universitario BUAP,2018,Apertura,11,Lobos Buap,Monarcas
+816441,2022-04-10 00:06:00+00:00,Estadio BBVA,2021,Clausura,13,Monterrey,Santos Laguna
+569772,2020-10-04 17:00:00+00:00,Estadio Nemesio Diez,2020,Apertura,13,Toluca,Cruz Azul
+816334,2022-01-09 03:00:00+00:00,Estadio Azteca,2021,Clausura,1,Cruz Azul,Club Tijuana
+169214,2019-11-01 03:00:00+00:00,Estadio Azteca,2019,Apertura,16,Cruz Azul,Leon
+1031389,2023-10-29 00:00:00+00:00,Estadio Azteca,2023,Apertura,14,Cruz Azul,Leon
+143875,2016-10-16 17:00:00+00:00,Estadio Nemesio Diez,2016,Apertura,13,Toluca,U.N.A.M. - Pumas
+143368,2018-03-11 01:00:00+00:00,Estadio Universitario de Nuevo Leon (San Nicolas de los Garza),2017,Clausura,11,Tigres UANL,Club Tijuana
+652815,2021-01-17 01:00:00+00:00,Estadio Azteca,2020,Clausura,2,Cruz Azul,Puebla
+293458,2020-02-09 01:00:00+00:00,Estadio Universitario de Nuevo Leon,2019,Clausura,5,Tigres UANL,Guadalajara Chivas
+1150229,2024-01-27 01:00:00+00:00,Estadio Cuauhtemoc,2023,Clausura,3,Puebla,Toluca
+1150230,2024-01-27 03:00:00+00:00,Estadio Caliente,2023,Clausura,3,Club Tijuana,Guadalajara Chivas
+1206013,2024-07-13 03:00:00+00:00,Estadio El Encanto,2024,Apertura,2,Mazatlan,Atletico San Luis
+143650,2017-02-05 18:00:00+00:00,Estadio Olimpico Universitario,2016,Clausura,5,U.N.A.M. - Pumas,Pachuca
+120290,2019-04-13 02:00:00+00:00,Estadio Jalisco,2018,Clausura,14,Atlas,Necaxa
+652861,2021-02-21 03:00:00+00:00,Estadio Jalisco,2020,Clausura,7,Atlas,Club America
+652838,2021-02-02 03:00:00+00:00,Estadio Leon,2020,Clausura,4,Leon,Atletico San Luis
+864195,2022-09-03 00:00:00+00:00,Estadio Victoria de Aguascalientes,2022,Apertura,12,Necaxa,Leon
+169179,2019-10-06 02:06:00+00:00,Estadio Caliente,2019,Apertura,13,Club Tijuana,Atlas
+120318,2019-05-05 00:00:00+00:00,Estadio Leon,2018,Clausura,17,Leon,Pachuca
+1031363,2023-10-04 03:00:00+00:00,Estadio Azteca,2023,Apertura,11,Club America,Pachuca
+169153,2019-09-21 02:00:00+00:00,Estadio Jalisco,2019,Apertura,10,Atlas,Toluca
+120408,2018-09-22 22:00:00+00:00,Estadio Nemesio Diez,2018,Apertura,10,Toluca,Necaxa
+816337,2022-01-20 03:00:00+00:00,Estadio Leon,2021,Clausura,1,Leon,Atlas
+120209,2019-02-02 03:00:00+00:00,Estadio Cuauhtemoc,2018,Clausura,5,Puebla,Necaxa
+120313,2019-04-28 17:00:00+00:00,Estadio Olimpico Universitario,2018,Clausura,16,U.N.A.M. - Pumas,Toluca
+143847,2016-09-22 02:00:00+00:00,Estadio Olimpico Universitario,2016,Apertura,10,U.N.A.M. - Pumas,Atlas
+974363,2023-02-16 01:05:00+00:00,Estadio AKRON,2022,Clausura,7,Guadalajara Chivas,Club Tijuana
+974370,2023-02-18 03:05:00+00:00,Estadio Cuauhtemoc,2022,Clausura,8,Puebla,Cruz Azul
+143312,2018-02-04 01:00:00+00:00,Estadio BBVA Bancomer (Guadalupe),2017,Clausura,5,Monterrey,Leon
+1147014,2023-12-18 01:30:00+00:00,Estadio Azteca,2023,Apertura,Final,Club America,Tigres UANL
+864202,2022-09-07 00:00:00+00:00,Estadio Leon,2022,Apertura,13,Leon,FC Juarez
+864146,2022-08-01 00:05:00+00:00,Estadio Nuevo Corona,2022,Apertura,6,Santos Laguna,Atlas
+169164,2019-09-25 02:00:00+00:00,Estadio Leon,2019,Apertura,11,Leon,Atlas
+143903,2016-11-07 00:00:00+00:00,Estadio TSM Corona,2016,Apertura,16,Santos Laguna,Jaguares de Chiapas
+816420,2022-03-19 03:00:00+00:00,Estadio Cuauhtemoc,2021,Clausura,11,Puebla,Santos Laguna
+569708,2020-08-23 00:00:00+00:00,Estadio Universitario de Nuevo Leon,2020,Apertura,6,Tigres UANL,U.N.A.M. - Pumas
+569664,2020-07-26 02:00:00+00:00,Estadio Olimpico de Universitario,2020,Apertura,1,Cruz Azul,Santos Laguna
+813312,2021-11-29 00:00:00+00:00,Estadio Universitario de Nuevo Leon,2021,Apertura,Quarter-finals,Tigres UANL,Santos Laguna
+652875,2021-03-02 23:00:00+00:00,Estadio Jalisco,2020,Clausura,9,Atlas,Atletico San Luis
+652826,2021-01-27 02:30:00+00:00,Estadio Azteca,2020,Clausura,3,Club America,FC Juarez
+143378,2018-03-18 03:00:00+00:00,Estadio Azteca (Ciudad de Mexico (D.F.)),2017,Clausura,12,Club America,Toluca
+816462,2022-04-21 02:06:00+00:00,Estadio BBVA,2021,Clausura,15,Monterrey,Atlas
+143486,2017-08-27 02:06:00+00:00,Estadio Akron,2017,Apertura,7,Guadalajara Chivas,Club Queretaro
+701897,2021-05-09 02:15:00+00:00,Estadio Nuevo Corona,2020,Clausura,Reclasificacion,Santos Laguna,Club Queretaro
+143594,2016-12-26 00:30:00+00:00,Estadio Universitario (UANL),2016,Apertura,Finals,Tigres UANL,Club America
+169222,2019-11-04 01:00:00+00:00,Estadio Olimpico Benito Juarez,2019,Apertura,17,FC Juarez,Club Tijuana
+143777,2016-07-24 23:00:00+00:00,Estadio Cuauhtemoc,2016,Apertura,2,Puebla,Club Tijuana
+143781,2016-07-31 00:00:00+00:00,Estadio Jalisco,2016,Apertura,3,Atlas,Veracruz
+652847,2021-02-09 03:00:00+00:00,Estadio Leon,2020,Clausura,5,Leon,Guadalajara Chivas
+143719,2017-04-09 00:06:00+00:00,Estadio Leon,2016,Clausura,13,Leon,Veracruz
+974348,2023-02-05 23:00:00+00:00,Estadio AKRON,2022,Clausura,5,Guadalajara Chivas,Club Queretaro
+143869,2016-10-15 22:00:00+00:00,Estadio Victor Manuel Reyna,2016,Apertura,13,Jaguares de Chiapas,Monterrey
+169146,2019-09-14 22:00:00+00:00,Estadio BBVA Bancomer,2019,Apertura,9,Monterrey,Necaxa
+143440,2017-07-30 00:06:00+00:00,Estadio Miguel Hidalgo,2017,Apertura,2,Pachuca,Club America
+1031367,2023-09-27 01:05:00+00:00,Estadio AKRON,2023,Apertura,11,Guadalajara Chivas,Mazatlan
+169229,2019-11-10 03:00:00+00:00,Estadio AKRON,2019,Apertura,18,Guadalajara Chivas,Club Queretaro
+974447,2023-04-23 18:00:00+00:00,Estadio Nemesio Diez,2022,Clausura,16,Toluca,FC Juarez
+293493,2020-03-07 23:00:00+00:00,Estadio Azteca,2019,Clausura,9,Cruz Azul,Club Tijuana
+652938,2021-04-24 00:30:00+00:00,Estadio Cuauhtemoc,2020,Clausura,16,Puebla,U.N.A.M. - Pumas
+1150245,2024-01-31 03:00:00+00:00,Estadio Corona,2023,Clausura,4,Santos Laguna,Puebla
+143735,2017-04-22 22:00:00+00:00,Estadio Azul,2016,Clausura,15,Cruz Azul,Guadalajara Chivas
+143244,2019-05-27 01:06:00+00:00,Estadio Leon,2018,Clausura,Finals,Leon,Tigres UANL
+1150263,2024-02-11 03:10:00+00:00,Estadio Corona,2023,Clausura,6,Santos Laguna,Tigres UANL
+974354,2023-02-11 23:00:00+00:00,Estadio Azteca,2022,Clausura,6,Club America,Necaxa
+120406,2018-09-22 00:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2018,Apertura,10,Monarcas,U.N.A.M. - Pumas
+569781,2020-10-18 02:00:00+00:00,Estadio Azteca,2020,Apertura,14,Cruz Azul,Tigres UANL
+143479,2017-08-24 02:00:00+00:00,Estadio Victoria,2017,Apertura,6,Necaxa,Cruz Azul
+816396,2022-03-02 03:00:00+00:00,Estadio Azteca,2021,Clausura,8,Club America,Club Queretaro
+1206093,2024-10-05 02:00:00+00:00,Estadio El Encanto,2024,Apertura,11,Mazatlan,Club Queretaro
+1206045,2024-08-25 01:00:00+00:00,Estadio Universitario,2024,Apertura,5,Tigres UANL,Guadalajara Chivas
+652945,2021-04-26 00:30:00+00:00,Estadio La Corregidora,2020,Clausura,16,Club Queretaro,FC Juarez
+861502,2022-05-12 02:05:00+00:00,Estadio Cuauhtemoc,2021,Clausura,Quarter-finals,Puebla,Club America
+569735,2020-09-09 02:00:00+00:00,Estadio Cuauhtemoc,2020,Apertura,9,Puebla,Club America
+120428,2018-10-07 00:00:00+00:00,Estadio Universitario (UANL),2018,Apertura,12,Tigres UANL,Club America
+143762,2016-07-17 00:00:00+00:00,Estadio BBVA Bancomer,2016,Apertura,1,Monterrey,Puebla
+1150266,2024-02-17 03:00:00+00:00,Estadio El Encanto,2023,Clausura,7,Mazatlan,Guadalajara Chivas
+816335,2022-01-11 03:00:00+00:00,Estadio Olimpico de Universitario,2021,Clausura,1,U.N.A.M. - Pumas,Toluca
+120388,2018-09-01 00:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2018,Apertura,8,Monarcas,Club Queretaro
+293503,2020-03-15 01:00:00+00:00,Estadio Leon,2019,Clausura,10,Leon,U.N.A.M. - Pumas
+652881,2021-03-04 03:06:00+00:00,Estadio Caliente,2020,Clausura,9,Club Tijuana,Club America
+143273,2018-01-06 01:00:00+00:00,Estadio Cuauhtemoc (Puebla),2017,Clausura,1,Puebla,Tigres UANL
+143495,2017-09-10 17:00:00+00:00,Estadio Olimpico Universitario,2017,Apertura,8,U.N.A.M. - Pumas,Club Tijuana
+1206030,2024-07-20 01:00:00+00:00,Estadio Alfonso Lastras Ramirez,2024,Apertura,4,Atletico San Luis,Club Tijuana
+120243,2019-02-25 00:06:00+00:00,Estadio TSM Corona,2018,Clausura,8,Santos Laguna,Toluca
+143587,2017-05-11 02:30:00+00:00,Estadio TSM Corona,2016,Clausura,Quarter-finals,Santos Laguna,Toluca
+652880,2021-03-04 03:00:00+00:00,Estadio Azteca,2020,Clausura,9,Cruz Azul,Mazatlan
+143665,2017-02-19 01:06:00+00:00,Estadio Leon,2016,Clausura,7,Leon,Santos Laguna
+652874,2021-03-01 03:00:00+00:00,Estadio AKRON,2020,Clausura,8,Guadalajara Chivas,U.N.A.M. - Pumas
+143830,2016-09-11 17:00:00+00:00,Estadio Olimpico Universitario,2016,Apertura,8,U.N.A.M. - Pumas,Club Queretaro
+293490,2020-03-07 01:00:00+00:00,Estadio La Corregidora,2019,Clausura,9,Club Queretaro,Toluca
+1316646,2024-11-28 03:10:00+00:00,Estadio Caliente,2024,Apertura,Quarter-finals,Club Tijuana,Cruz Azul
+143698,2017-03-18 23:00:00+00:00,Estadio Azul,2016,Clausura,11,Cruz Azul,Tigres UANL
+1031292,2023-07-11 02:00:00+00:00,Estadio Leon,2023,Apertura,2,Leon,Pachuca
+1150275,2024-02-24 03:00:00+00:00,Estadio Victoria,2023,Clausura,8,Necaxa,Pachuca
+974408,2023-03-19 01:05:00+00:00,Estadio Universitario de Nuevo Leon,2022,Clausura,12,Tigres UANL,Monterrey
+652894,2021-03-13 03:30:00+00:00,Estadio Olimpico Benito Juarez,2020,Clausura,11,FC Juarez,U.N.A.M. - Pumas
+864193,2022-09-02 00:00:00+00:00,Estadio Alfonso Lastras Ramirez,2022,Apertura,12,Atletico San Luis,Club Tijuana
+1145603,2023-12-11 02:00:00+00:00,Estadio Universitario,2023,Apertura,Semi-finals,Tigres UANL,U.N.A.M. - Pumas
+974395,2023-03-11 01:05:00+00:00,Estadio Alfonso Lastras Ramirez,2022,Clausura,11,Atletico San Luis,Club Queretaro
+864187,2022-08-28 00:05:00+00:00,Estadio Universitario de Nuevo Leon,2022,Apertura,11,Tigres UANL,Necaxa
+974387,2023-03-04 01:05:00+00:00,Estadio de Mazatlan,2022,Clausura,10,Mazatlan,Cruz Azul
+816428,2022-04-02 02:00:00+00:00,Estadio Alfonso Lastras Ramirez,2021,Clausura,12,Atletico San Luis,Mazatlan
+120423,2018-09-30 23:00:00+00:00,Estadio Azteca,2018,Apertura,11,Club America,Guadalajara Chivas
+1199964,2024-05-19 02:00:00+00:00,Estadio Azteca,2023,Clausura,Semi-finals,Club America,Guadalajara Chivas
+143585,2017-05-11 00:30:00+00:00,Estadio Universitario (UANL),2016,Clausura,Quarter-finals,Tigres UANL,Monterrey
+120438,2018-10-21 02:06:00+00:00,Estadio BBVA Bancomer,2018,Apertura,13,Monterrey,Toluca
+721804,2021-09-25 01:00:00+00:00,Estadio Cuauhtemoc,2021,Apertura,10,Puebla,Cruz Azul
+652932,2021-04-18 00:00:00+00:00,Estadio AKRON,2020,Clausura,15,Guadalajara Chivas,Club Tijuana
+569679,2020-08-08 00:30:00+00:00,Estadio Victoria de Aguascalientes,2020,Apertura,3,Necaxa,Club America
+143831,2016-09-11 23:00:00+00:00,Estadio Cuauhtemoc,2016,Apertura,8,Puebla,Toluca
+120355,2018-08-12 00:00:00+00:00,Estadio Leon,2018,Apertura,4,Leon,Club Queretaro
+1031306,2023-10-26 01:00:00+00:00,Estadio BBVA,2023,Apertura,4,Monterrey,Club Tijuana
+1031390,2023-10-29 01:05:00+00:00,Estadio Hidalgo,2023,Apertura,14,Pachuca,Puebla
+293451,2020-02-01 23:00:00+00:00,Estadio Victoria de Aguascalientes,2019,Clausura,4,Necaxa,Puebla
+120439,2018-10-21 17:00:00+00:00,Estadio Universitario BUAP,2018,Apertura,13,Lobos Buap,Guadalajara Chivas
+1031424,2023-08-24 03:00:00+00:00,Estadio Alfonso Lastras Ramirez,2023,Apertura,5,Atletico San Luis,Leon
+120448,2018-10-28 02:06:00+00:00,Estadio Caliente,2018,Apertura,14,Club Tijuana,U.N.A.M. - Pumas
+721725,2021-07-24 21:00:00+00:00,Estadio Hidalgo,2021,Apertura,1,Pachuca,Leon
+1150312,2024-03-16 23:00:00+00:00,Estadio Ciudad de los Deportes,2023,Clausura,12,Cruz Azul,Necaxa
+143747,2017-04-30 00:06:00+00:00,Estadio Akron,2016,Clausura,16,Guadalajara Chivas,Leon
+652851,2021-02-14 01:00:00+00:00,Estadio AKRON,2020,Clausura,6,Guadalajara Chivas,Necaxa
+143353,2018-02-26 00:00:00+00:00,Estadio Nuevo Corona (Torreon),2017,Clausura,9,Santos Laguna,Cruz Azul
+120338,2018-07-29 02:06:00+00:00,Estadio Akron,2018,Apertura,2,Guadalajara Chivas,Cruz Azul
+143333,2018-02-15 03:00:00+00:00,Estadio Olimpico de Universitario (Ciudad de Mexico (D.F.)),2017,Clausura,7,U.N.A.M. - Pumas,Veracruz
+721832,2021-10-16 02:00:00+00:00,Estadio de Mazatlan,2021,Apertura,13,Mazatlan,Atlas
+120390,2018-09-01 02:06:00+00:00,Estadio Caliente,2018,Apertura,8,Club Tijuana,Necaxa
+120343,2018-08-04 00:00:00+00:00,Estadio Luis Pirata Fuente,2018,Apertura,3,Veracruz,Monarcas
+569683,2020-08-09 02:00:00+00:00,Estadio AKRON,2020,Apertura,3,Guadalajara Chivas,Puebla
+569758,2020-09-26 00:30:00+00:00,Estadio Cuauhtemoc,2020,Apertura,12,Puebla,Club Queretaro
+143300,2018-01-27 01:00:00+00:00,Estadio Generalisimo Jose Maria Morelos y Pavon (Morelia),2017,Clausura,4,Monarcas,Club Queretaro
+143390,2018-04-07 00:00:00+00:00,Estadio Cuauhtemoc (Puebla),2017,Clausura,14,Puebla,Pachuca
+293483,2020-02-29 03:10:00+00:00,Estadio Caliente,2019,Clausura,8,Club Tijuana,Puebla
+143618,2017-01-15 01:00:00+00:00,Estadio Jalisco,2016,Clausura,2,Atlas,Tigres UANL
+120271,2019-03-30 01:00:00+00:00,Estadio Jose Maria Morelos y Pavon,2018,Clausura,12,Monarcas,Leon
+143676,2017-02-26 18:00:00+00:00,Estadio Nemesio Diez,2016,Clausura,8,Toluca,Puebla
+169189,2019-10-19 02:00:00+00:00,Estadio Luis de la Fuente,2019,Apertura,14,Veracruz,Tigres UANL
+169115,2019-08-19 00:00:00+00:00,Estadio Olimpico Benito Juarez,2019,Apertura,5,FC Juarez,Club Queretaro
+143548,2017-10-22 00:06:00+00:00,Estadio Miguel Hidalgo,2017,Apertura,14,Pachuca,Puebla
+143754,2017-05-07 02:00:00+00:00,Estadio BBVA Bancomer,2016,Clausura,17,Monterrey,Monarcas
+1031366,2023-10-05 03:00:00+00:00,Estadio Universitario,2023,Apertura,11,Tigres UANL,Toluca
+721799,2021-09-18 22:00:00+00:00,Estadio Leon,2021,Apertura,9,Leon,FC Juarez
+974375,2023-02-20 01:05:00+00:00,Estadio Azteca,2022,Clausura,8,Club America,Club Tijuana
+721827,2021-10-03 00:06:00+00:00,Estadio Nuevo Corona,2021,Apertura,12,Santos Laguna,Mazatlan
+864200,2022-09-04 02:05:00+00:00,Estadio Azteca,2022,Apertura,12,Club America,Tigres UANL
+1206131,2024-11-02 03:05:00+00:00,Estadio Caliente,2024,Apertura,15,Club Tijuana,Tigres UANL
+965506,2022-10-17 00:06:00+00:00,Estadio Nuevo Corona,2022,Apertura,Quarter-finals,Santos Laguna,Toluca
+120465,2018-11-11 03:00:00+00:00,Estadio Victoria,2018,Apertura,16,Necaxa,Monterrey
+974388,2023-03-04 03:15:00+00:00,Estadio Caliente,2022,Clausura,10,Club Tijuana,Atlas
+143662,2017-02-18 23:00:00+00:00,Estadio Azul,2016,Clausura,7,Cruz Azul,Atlas
+1206020,2024-07-14 03:10:00+00:00,Estadio BBVA,2024,Apertura,2,Monterrey,Cruz Azul
+120455,2018-11-04 01:06:00+00:00,Estadio BBVA Bancomer,2018,Apertura,15,Monterrey,Veracruz
+1206094,2024-10-05 03:00:00+00:00,Estadio Caliente,2024,Apertura,11,Club Tijuana,Pachuca

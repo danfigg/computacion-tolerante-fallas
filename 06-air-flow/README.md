@@ -12,26 +12,30 @@ Este proyecto utiliza **Apache Airflow** para automatizar la verificación diari
 - **Apache Airflow**: Configurado y en funcionamiento.
 - **Python 3.7+**
 - Dependencias adicionales:
-  - `requests`
-  - `beautifulsoup4`
-  - `python-dotenv`
+  Se encuentran en `requeriments.txt`
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local:
+Clona este repositorio en tu máquina local:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd apache/airflow
+   git clone https://github.com/danfigg/computacion-tolerante-fallas.git
+   cd 06-air-flow/apache/airflow
    ```
-   
+
 ## Ejecución
+
+Ejecuta docker
+   ```bash
+   docker compose up -d
+   ```
+Accede a `http://localhost:8080` e inicias sesión. Podrás ver los Dags
 
 ### Vista del DAG en Airflow
 A continuación, se muestra cómo se ve el DAG en la interfaz de Airflow:
 
-![Vista del DAG en Airflow](./images/airflow_dag_view.png)
+![Vista del DAG en Airflow](/images/airflow_dag_view.png)
 
 ### Notificación en Discord
 Ejemplo de una notificación enviada al canal de Discord configurado:
 
-![Notificación en Discord](./images/discord_notification.png)
+![Notificación en Discord](/images/discord_notification.png)

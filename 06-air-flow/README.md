@@ -33,9 +33,9 @@ Accede a `http://localhost:8080` e inicias sesión. Podrás ver los Dags
 ### Vista del DAG en Airflow
 A continuación, se muestra cómo se ve el DAG en la interfaz de Airflow:
 
-![Vista del DAG en Airflow](/images/airflow_dag_view.png)
+![Vista del DAG en Airflow](images/airflow_dag_view.jpg)
 
 ### Notificación en Discord
 Ejemplo de una notificación enviada al canal de Discord configurado:
 
-![Notificación en Discord](/images/discord_notification.png)
+![Notificación en Discord](images/discord_notification.jpg)

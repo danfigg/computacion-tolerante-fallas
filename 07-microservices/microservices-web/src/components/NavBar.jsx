@@ -6,7 +6,7 @@ function Navbar() {
       <nav className={styles.navbar}>
         <div className={styles.logo}>Barbería Élite</div>
         <ul className={styles.navLinks}>
-          <li><a href="#inicio">Inicio</a></li>
+          <li><Link to="/">Inicio</Link></li>
           <li><a href="#reservar">Reservar</a></li>
           <li><a href="#gestionar">Gestionar</a></li>
         </ul>

@@ -47,6 +47,8 @@
     transition: background-color 0.3s;
     display: block;
     margin: 0px auto;
+    width: 200px;
+    text-align: center;
   }
   
   .cta-button:hover {

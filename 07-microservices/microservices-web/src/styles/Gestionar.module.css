@@ -1,0 +1,90 @@
+.gestionar-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #5E503F;
+    margin-bottom: 20px;
+  }
+  
+  .gestion-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #5E503F;
+  }
+  
+  .buscar-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #5E503F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buscar-button:hover {
+    background-color: rgb(119, 101, 81);
+  }
+  
+  .reserva-detalles {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .reserva-detalles h2 {
+    margin-bottom: 10px;
+    color: #5E503F;
+  }
+  
+  .cancelar-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cancelar-button:hover {
+    background-color: #c9302c;
+  }

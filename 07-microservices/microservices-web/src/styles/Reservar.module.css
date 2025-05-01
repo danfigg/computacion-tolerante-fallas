@@ -1,0 +1,81 @@
+.reservar-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2rem;
+    color: #5E503F;
+    margin-bottom: 20px;
+  }
+  
+  .reservation-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+  gap: 15px; /* Espaciado entre filas y columnas */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 1; /* Cada grupo ocupa una columna */
+}
+
+.form-group.full-width {
+  grid-column: span 2; /* Ocupa ambas columnas */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #5E503F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  grid-column: span 2; /* Centra el botón ocupando ambas columnas */
+}
+  
+  .form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+    .form-group select {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Fondo más claro */
+    color: #333; /* Texto más suave */
+    }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    outline: none;
+    border-color: #5E503F;
+    background-color: #eaeaea; /* Fondo ligeramente más oscuro al enfocar */
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #5E503F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: rgb(119, 101, 81);
+  }

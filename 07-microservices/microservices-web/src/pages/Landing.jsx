@@ -1,4 +1,5 @@
 import styles from '../styles/Landing.module.css';
+import { Link } from 'react-router-dom';
 
 function Landing() {
   return (
@@ -31,7 +32,9 @@ function Landing() {
           </div>
         </div>
 
-        <button className={styles['cta-button']}>Reserva tu cita</button>
+        <Link to="/reservar" className={styles['cta-button']}>
+          Reserva tu cita
+        </Link>
       </div>
 
       <div className={styles['landing-image']}>

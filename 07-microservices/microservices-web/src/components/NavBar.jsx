@@ -7,8 +7,8 @@ function Navbar() {
         <div className={styles.logo}>Barbería Élite</div>
         <ul className={styles.navLinks}>
           <li><Link to="/">Inicio</Link></li>
-          <li><a href="#reservar">Reservar</a></li>
-          <li><a href="#gestionar">Gestionar</a></li>
+          <li><Link to="/reservar">Reservar</Link></li>
+          <li><Link to="/gestionar">Gestionar</Link></li>
         </ul>
       </nav>
     );

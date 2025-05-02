@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+
+docker-compose.yml
+.env
+*.log
+node_modules/

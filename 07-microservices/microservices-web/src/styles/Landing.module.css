@@ -1,0 +1,70 @@
+.landing-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    gap: 20px;
+  }
+  
+  .landing-text {
+    flex: 1; /* Ocupa el espacio restante */
+    max-width: 60%; /* Limita el ancho del texto */
+  }
+  
+  .landing-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+  
+  .landing-text .highlight {
+    color:#5E503F;
+    font-weight: bold;
+  }
+  
+  .landing-text .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #5E503F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0px auto;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .cta-button:hover {
+    background-color:rgb(119, 101, 81);
+  }
+  
+  .landing-image {
+    flex: 0 0 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .landing-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }

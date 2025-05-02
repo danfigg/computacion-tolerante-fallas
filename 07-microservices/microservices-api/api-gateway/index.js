@@ -1,8 +1,13 @@
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
+const cors = require('cors'); // 👈 importar cors
 require('dotenv').config();
 
 const app = express();
+
+app.use(cors({
+  origin: 'http://localhost:3000', 
+}));
 
 const USERS_SERVICE = process.env.USERS_SERVICE_URL;
 const RESERVAS_SERVICE = process.env.RESERVAS_SERVICE_URL;

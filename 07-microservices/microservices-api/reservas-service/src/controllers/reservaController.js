@@ -1,10 +1,17 @@
 const Reserva = require('../models/reserva');
 
+// Función para generar un código único
+function generarCodigoReserva() {
+  return 'R-' + Math.random().toString(36).substr(2, 9).toUpperCase();
+}
+
 // Crear
 exports.createReserva = async (req, res) => {
   try {
-    const { servicio, fecha, hora } = req.body;
-    const reserva = await Reserva.create({ servicio, fecha, hora });
+    const { servicio, fecha, hora, user_id } = req.body;
+    const codigo = generarCodigoReserva();
+
+    const reserva = await Reserva.create({ servicio, fecha, hora, user_id, codigo });
     res.status(201).json(reserva);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -14,7 +21,7 @@ exports.createReserva = async (req, res) => {
 // Leer todas
 exports.getReservas = async (req, res) => {
   try {
-    const reservas = await Reserva.findAll();
+    const reservas = await Reserva.findAll(); 
     res.json(reservas);
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -35,10 +42,11 @@ exports.getReservaById = async (req, res) => {
 // Actualizar
 exports.updateReserva = async (req, res) => {
   try {
-    const { servicio, fecha, hora } = req.body;
-    const [updated] = await Reserva.update({ servicio, fecha, hora }, {
-      where: { id: req.params.id }
-    });
+    const { servicio, fecha, hora, user_id } = req.body;
+    const [updated] = await Reserva.update(
+      { servicio, fecha, hora, user_id },
+      { where: { id: req.params.id } }
+    );
     if (!updated) return res.status(404).json({ error: 'Reserva no encontrada' });
     const updatedReserva = await Reserva.findByPk(req.params.id);
     res.json(updatedReserva);

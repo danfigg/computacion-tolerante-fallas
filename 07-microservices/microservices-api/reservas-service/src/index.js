@@ -1,8 +1,14 @@
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const sequelize = require('./config/database');
 const userRoutes = require('./routes/reservas');
+
+
+app.use(cors({
+  origin: 'http://localhost:3000',
+}));
 
 app.use(express.json());
 app.use('/reservas', userRoutes);
@@ -12,7 +18,6 @@ const PORT = process.env.PORT || 4001;
 sequelize.authenticate()
   .then(() => {
     console.log('Database connected');
-    // Sincroniza (crea tablas si no existen)
     return sequelize.sync();
   })
   .then(() => {

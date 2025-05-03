@@ -13,7 +13,7 @@ function Reservar() {
   const [errors, setErrors] = useState({});
 
   const [modalOpen, setModalOpen] = useState(false);
-  const [modalType, setModalType] = useState('success'); // 'success' o 'error'
+  const [modalType, setModalType] = useState('success'); 
   const [modalTitle, setModalTitle] = useState('');
   const [modalDesc, setModalDesc] = useState('');
 
@@ -81,11 +81,14 @@ function Reservar() {
       });
   
       if (!reservaResponse.ok) throw new Error('Error al crear reserva');
+
+      const reservaData = await reservaResponse.json();
+      const codigoConfirmacion = reservaData.codigo;
   
       // Muestra modal de éxito
       setModalType('success');
       setModalTitle('¡Reserva exitosa!');
-      setModalDesc('Tu cita fue registrada correctamente.');
+      setModalDesc(`Tu cita fue registrada correctamente. Código de confirmación: ${codigoConfirmacion}`);
       setModalOpen(true);
     } catch (error) {
       console.error(error);
@@ -176,7 +179,7 @@ function Reservar() {
           onConfirm={() => {
             setModalOpen(false);
             if (modalType === 'success') {
-              window.location.href = '/'; // o cualquier otra ruta
+              window.location.href = '/'; 
             }
           }}
         />

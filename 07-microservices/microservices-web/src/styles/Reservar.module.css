@@ -47,6 +47,11 @@
     margin-bottom: 5px;
     color: #333;
   }
+
+  .form-group input[type="date"] {
+    color: #000; /* Negro */
+  }
+  
   
   .form-group input,
     .form-group select {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/Reservar.module.css';
+import AlertModal from '../components/Modal';
 
 console.log("styles: ", styles);
 
@@ -10,6 +11,12 @@ function Reservar() {
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
   const [errors, setErrors] = useState({});
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalType, setModalType] = useState('success'); // 'success' o 'error'
+  const [modalTitle, setModalTitle] = useState('');
+  const [modalDesc, setModalDesc] = useState('');
+
 
   const validate = () => {
     const newErrors = {};
@@ -32,6 +39,10 @@ function Reservar() {
       newErrors.date = 'Debes seleccionar una fecha.';
     }
 
+    if (new Date(date) < new Date().setHours(0, 0, 0, 0)) {
+      newErrors.date = 'La fecha no puede ser en el pasado.';
+    }
+    
     if (!time) {
       newErrors.time = 'Debes seleccionar una hora.';
     }
@@ -42,33 +53,25 @@ function Reservar() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    if (!validate()) {
-      return;
-    }
-
+  
+    if (!validate()) return;
+  
     let userId;
     try {
       const userResponse = await fetch('http://localhost:4002/users', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nombre: name, telefono: phone }),
       });
-
-      if (!userResponse.ok) {
-        throw new Error('Error al crear usuario');
-      }
-
+  
+      if (!userResponse.ok) throw new Error('Error al crear usuario');
+  
       const userData = await userResponse.json();
       userId = userData.id;
-
+  
       const reservaResponse = await fetch('http://localhost:4002/reservas', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           servicio: service,
           fecha: date,
@@ -76,18 +79,24 @@ function Reservar() {
           user_id: userId,
         }),
       });
-
-      if (!reservaResponse.ok) {
-        throw new Error('Error al crear reserva');
-      }
-
-      alert('Reserva creada exitosamente');
+  
+      if (!reservaResponse.ok) throw new Error('Error al crear reserva');
+  
+      // Muestra modal de éxito
+      setModalType('success');
+      setModalTitle('¡Reserva exitosa!');
+      setModalDesc('Tu cita fue registrada correctamente.');
+      setModalOpen(true);
     } catch (error) {
       console.error(error);
-      alert('Hubo un error al hacer la reserva');
+      // Muestra modal de error
+      setModalType('error');
+      setModalTitle('Error al reservar');
+      setModalDesc('Ocurrió un problema al hacer la reserva. Inténtalo más tarde.');
+      setModalOpen(true);
     }
   };
-
+  
   return (
     
     <div className={styles['reservar-container']}>
@@ -156,7 +165,25 @@ function Reservar() {
         </div>
         <button type="submit" className={styles['submit-button']}>Reservar</button>
       </form>
+
+      {modalOpen && (
+        <AlertModal
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+          title={modalTitle}
+          description={modalDesc}
+          type={modalType}
+          onConfirm={() => {
+            setModalOpen(false);
+            if (modalType === 'success') {
+              window.location.href = '/'; // o cualquier otra ruta
+            }
+          }}
+        />
+      )}
+
     </div>
+    
   );
 }
 

@@ -1,17 +1,52 @@
 import React, { useState } from 'react';
 import styles from '../styles/Reservar.module.css';
 
+console.log("styles: ", styles);
+
 function Reservar() {
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [service, setService] = useState('');
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
+  const [errors, setErrors] = useState({});
+
+  const validate = () => {
+    const newErrors = {};
+
+    if (!name.trim()) {
+      newErrors.name = 'El nombre es obligatorio.';
+    }
+
+    if (!phone.trim()) {
+      newErrors.phone = 'El número de contacto es obligatorio.';
+    } else if (!/^\d{10}$/.test(phone)) {
+      newErrors.phone = 'El número de contacto debe tener 10 dígitos.';
+    }
+
+    if (!service) {
+      newErrors.service = 'Debes seleccionar un servicio.';
+    }
+
+    if (!date) {
+      newErrors.date = 'Debes seleccionar una fecha.';
+    }
+
+    if (!time) {
+      newErrors.time = 'Debes seleccionar una hora.';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Paso 1: Verificar si el usuario existe o crear uno nuevo
+    if (!validate()) {
+      return;
+    }
+
     let userId;
     try {
       const userResponse = await fetch('http://localhost:4002/users', {
@@ -29,7 +64,6 @@ function Reservar() {
       const userData = await userResponse.json();
       userId = userData.id;
 
-      // Paso 2: Crear la reserva asociada al usuario
       const reservaResponse = await fetch('http://localhost:4002/reservas', {
         method: 'POST',
         headers: {
@@ -39,7 +73,7 @@ function Reservar() {
           servicio: service,
           fecha: date,
           hora: time,
-          user_id: userId, // Asociar la reserva al usuario creado
+          user_id: userId,
         }),
       });
 
@@ -55,6 +89,7 @@ function Reservar() {
   };
 
   return (
+    
     <div className={styles['reservar-container']}>
       <h1 className={styles['title']}>Reserva tu cita</h1>
       <form className={styles['reservation-form']} onSubmit={handleSubmit}>
@@ -65,10 +100,10 @@ function Reservar() {
             id="name"
             name="name"
             placeholder="Ingresa tu nombre"
-            required
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
+          {errors.name && <p className={styles['error-message']}>{errors.name}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="phone">Número de contacto</label>
@@ -77,17 +112,16 @@ function Reservar() {
             id="phone"
             name="phone"
             placeholder="Ingresa tu número"
-            required
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
+          {errors.phone && <p className={styles['error-message']}>{errors.phone}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="service">Servicio</label>
           <select
             id="service"
             name="service"
-            required
             value={service}
             onChange={(e) => setService(e.target.value)}
           >
@@ -96,6 +130,7 @@ function Reservar() {
             <option value="disenio_barba">Diseño de barba</option>
             <option value="afeitado">Afeitado con toalla caliente</option>
           </select>
+          {errors.service && <p className={styles['error-message']}>{errors.service}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="date">Fecha</label>
@@ -103,10 +138,10 @@ function Reservar() {
             type="date"
             id="date"
             name="date"
-            required
             value={date}
             onChange={(e) => setDate(e.target.value)}
           />
+          {errors.date && <p className={styles['error-message']}>{errors.date}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="time">Hora</label>
@@ -114,10 +149,10 @@ function Reservar() {
             type="time"
             id="time"
             name="time"
-            required
             value={time}
             onChange={(e) => setTime(e.target.value)}
           />
+          {errors.time && <p className={styles['error-message']}>{errors.time}</p>}
         </div>
         <button type="submit" className={styles['submit-button']}>Reservar</button>
       </form>

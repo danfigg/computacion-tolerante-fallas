@@ -65,3 +65,21 @@ exports.deleteReserva = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
+
+// Leer una reserva por código
+exports.getReservaByCodigo = async (req, res) => {
+  try {
+    console.log('Buscando código:', req.params.codigo);
+    const reserva = await Reserva.findOne({ where: { codigo: req.params.codigo.trim() } });
+    console.log('Resultado:', reserva);
+
+    if (!reserva) {
+      return res.status(404).json({ error: 'Reserva no encontrada con ese código' });
+    }
+
+    res.json(reserva);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
+

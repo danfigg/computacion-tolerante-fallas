@@ -47,6 +47,11 @@
     margin-bottom: 5px;
     color: #333;
   }
+
+  .form-group input[type="date"] {
+    color: #000; /* Negro */
+  }
+  
   
   .form-group input,
     .form-group select {
@@ -78,4 +83,10 @@
   
   .submit-button:hover {
     background-color: rgb(119, 101, 81);
+  }
+
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
   }

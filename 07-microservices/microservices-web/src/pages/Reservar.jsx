@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import styles from '../styles/Reservar.module.css';
+import AlertModal from '../components/Modal';
+
+console.log("styles: ", styles);
 
 function Reservar() {
   const [name, setName] = useState('');
@@ -7,54 +10,98 @@ function Reservar() {
   const [service, setService] = useState('');
   const [date, setDate] = useState('');
   const [time, setTime] = useState('');
+  const [errors, setErrors] = useState({});
+
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalType, setModalType] = useState('success'); 
+  const [modalTitle, setModalTitle] = useState('');
+  const [modalDesc, setModalDesc] = useState('');
+
+
+  const validate = () => {
+    const newErrors = {};
+
+    if (!name.trim()) {
+      newErrors.name = 'El nombre es obligatorio.';
+    }
+
+    if (!phone.trim()) {
+      newErrors.phone = 'El número de contacto es obligatorio.';
+    } else if (!/^\d{10}$/.test(phone)) {
+      newErrors.phone = 'El número de contacto debe tener 10 dígitos.';
+    }
+
+    if (!service) {
+      newErrors.service = 'Debes seleccionar un servicio.';
+    }
+
+    if (!date) {
+      newErrors.date = 'Debes seleccionar una fecha.';
+    }
+
+    if (new Date(date) < new Date().setHours(0, 0, 0, 0)) {
+      newErrors.date = 'La fecha no puede ser en el pasado.';
+    }
+    
+    if (!time) {
+      newErrors.time = 'Debes seleccionar una hora.';
+    }
+
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Paso 1: Verificar si el usuario existe o crear uno nuevo
+  
+    if (!validate()) return;
+  
     let userId;
     try {
       const userResponse = await fetch('http://localhost:4002/users', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ nombre: name, telefono: phone }),
       });
-
-      if (!userResponse.ok) {
-        throw new Error('Error al crear usuario');
-      }
-
+  
+      if (!userResponse.ok) throw new Error('Error al crear usuario');
+  
       const userData = await userResponse.json();
       userId = userData.id;
-
-      // Paso 2: Crear la reserva asociada al usuario
+  
       const reservaResponse = await fetch('http://localhost:4002/reservas', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           servicio: service,
           fecha: date,
           hora: time,
-          user_id: userId, // Asociar la reserva al usuario creado
+          user_id: userId,
         }),
       });
+  
+      if (!reservaResponse.ok) throw new Error('Error al crear reserva');
 
-      if (!reservaResponse.ok) {
-        throw new Error('Error al crear reserva');
-      }
-
-      alert('Reserva creada exitosamente');
+      const reservaData = await reservaResponse.json();
+      const codigoConfirmacion = reservaData.codigo;
+  
+      // Muestra modal de éxito
+      setModalType('success');
+      setModalTitle('¡Reserva exitosa!');
+      setModalDesc(`Tu cita fue registrada correctamente. Código de confirmación: ${codigoConfirmacion}`);
+      setModalOpen(true);
     } catch (error) {
       console.error(error);
-      alert('Hubo un error al hacer la reserva');
+      // Muestra modal de error
+      setModalType('error');
+      setModalTitle('Error al reservar');
+      setModalDesc('Ocurrió un problema al hacer la reserva. Inténtalo más tarde.');
+      setModalOpen(true);
     }
   };
-
+  
   return (
+    
     <div className={styles['reservar-container']}>
       <h1 className={styles['title']}>Reserva tu cita</h1>
       <form className={styles['reservation-form']} onSubmit={handleSubmit}>
@@ -65,10 +112,10 @@ function Reservar() {
             id="name"
             name="name"
             placeholder="Ingresa tu nombre"
-            required
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
+          {errors.name && <p className={styles['error-message']}>{errors.name}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="phone">Número de contacto</label>
@@ -77,17 +124,16 @@ function Reservar() {
             id="phone"
             name="phone"
             placeholder="Ingresa tu número"
-            required
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
           />
+          {errors.phone && <p className={styles['error-message']}>{errors.phone}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="service">Servicio</label>
           <select
             id="service"
             name="service"
-            required
             value={service}
             onChange={(e) => setService(e.target.value)}
           >
@@ -96,6 +142,7 @@ function Reservar() {
             <option value="disenio_barba">Diseño de barba</option>
             <option value="afeitado">Afeitado con toalla caliente</option>
           </select>
+          {errors.service && <p className={styles['error-message']}>{errors.service}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="date">Fecha</label>
@@ -103,10 +150,10 @@ function Reservar() {
             type="date"
             id="date"
             name="date"
-            required
             value={date}
             onChange={(e) => setDate(e.target.value)}
           />
+          {errors.date && <p className={styles['error-message']}>{errors.date}</p>}
         </div>
         <div className={styles['form-group']}>
           <label htmlFor="time">Hora</label>
@@ -114,14 +161,32 @@ function Reservar() {
             type="time"
             id="time"
             name="time"
-            required
             value={time}
             onChange={(e) => setTime(e.target.value)}
           />
+          {errors.time && <p className={styles['error-message']}>{errors.time}</p>}
         </div>
         <button type="submit" className={styles['submit-button']}>Reservar</button>
       </form>
+
+      {modalOpen && (
+        <AlertModal
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+          title={modalTitle}
+          description={modalDesc}
+          type={modalType}
+          onConfirm={() => {
+            setModalOpen(false);
+            if (modalType === 'success') {
+              window.location.href = '/'; 
+            }
+          }}
+        />
+      )}
+
     </div>
+    
   );
 }
 

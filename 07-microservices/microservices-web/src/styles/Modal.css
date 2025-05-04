@@ -1,0 +1,72 @@
+.modal-back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000; /* Asegura que se muestre encima de todo */
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    position: relative;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-icon {
+    margin-bottom: 10px;
+  }
+  
+  .modal-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .modal-desc {
+    font-size: 1em;
+    margin: 10px 0;
+  }
+  
+  .confirm-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .modal-success {
+    background-color: #e0f7e0;
+  }
+  
+  .modal-error {
+    background-color: #f8d7da;
+  }
+  
+  .confirm-btn-success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .confirm-btn-error {
+    background-color: #dc3545;
+    color: white;
+  }
+  

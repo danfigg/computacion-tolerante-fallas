@@ -1,29 +1,96 @@
 import { useState } from 'react';
 import styles from '../styles/Gestionar.module.css';
+import AlertModal from '../components/Modal';
 
 function Gestionar() {
   const [codigo, setCodigo] = useState('');
   const [reserva, setReserva] = useState(null);
+  const [loading, setLoading] = useState(false);
 
-  const handleBuscar = (e) => {
+  // Para el modal
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalType, setModalType] = useState('success'); 
+  const [modalTitle, setModalTitle] = useState('');
+  const [modalDesc, setModalDesc] = useState('');
+
+  const handleBuscar = async (e) => {
     e.preventDefault();
-    // Simulación de búsqueda de reserva
-    if (codigo === '12345') {
+    console.log('Buscando reserva...');
+    setLoading(true);
+
+    try {
+      const response = await fetch(`http://localhost:4002/reservas?codigo=${codigo.trim()}`);
+      
+      if (!response.ok) {
+        throw new Error('No se encontró ninguna reserva con ese código.');
+      }
+      const reservaArray = await response.json();
+      const reservaData = reservaArray[0];
+      
       setReserva({
-        nombre: 'Juan Pérez',
-        servicio: 'Corte de cabello',
-        fecha: '2025-05-01',
-        hora: '15:00',
+        id: reservaData.id,
+        servicio: reservaData.servicio,
+        fecha: reservaData.fecha,
+        hora: reservaData.hora,
+        codigo: reservaData.codigo,
+        user_id: reservaData.user_id,
       });
-    } else {
+
+      const userResponse = await fetch(`http://localhost:4002/users/${reservaData.user_id}`);
+      
+      if (!userResponse.ok) {
+        throw new Error('No se encontró el usuario asociado a la reserva.');
+      }
+
+      const userData = await userResponse.json();
+
+      setReserva((prevReserva) => ({
+        ...prevReserva,
+        nombre: userData.nombre,
+        telefono: userData.telefono,
+      }));
+
+    } catch (error) {
+      console.error('Error:', error);
       setReserva(null);
-      alert('No se encontró ninguna reserva con ese código.');
+      alert(error.message);
+    } finally {
+      setLoading(false);
     }
   };
 
-  const handleCancelar = () => {
-    alert('Reserva cancelada exitosamente.');
-    setReserva(null);
+  const handleCancelar = async () => {
+    if (!reserva?.codigo) {
+      setModalType('error');
+      setModalTitle('Error');
+      setModalDesc('No se puede cancelar la reserva: código no encontrado.');
+      setModalOpen(true);
+      return;
+    }
+  
+    try {
+      const response = await fetch(`http://localhost:4002/reservas/${reserva.id}`, {
+        method: 'DELETE',
+      });
+  
+      if (!response.ok) {
+        throw new Error('No se pudo cancelar la reserva.');
+      }
+  
+      // Mostrar modal de éxito
+      setModalType('success');
+      setModalTitle('Reserva cancelada');
+      setModalDesc('La reserva fue cancelada exitosamente.');
+      setModalOpen(true);
+      setReserva(null);  // Limpiar reserva
+    } catch (error) {
+      console.error('Error al cancelar la reserva:', error);
+      // Mostrar modal de error
+      setModalType('error');
+      setModalTitle('Error al cancelar');
+      setModalDesc('Ocurrió un error al cancelar la reserva. Inténtalo más tarde.');
+      setModalOpen(true);
+    }
   };
 
   return (
@@ -42,8 +109,12 @@ function Gestionar() {
             required
           />
         </div>
-        <button type="submit" className={styles['buscar-button']}>
-          Buscar
+        <button
+          type="submit"
+          className={styles['buscar-button']}
+          disabled={loading}
+        >
+          {loading ? 'Buscando...' : 'Buscar'}
         </button>
       </form>
 
@@ -58,6 +129,23 @@ function Gestionar() {
             Cancelar Reserva
           </button>
         </div>
+      )}
+
+      {/* Mostrar el modal si está abierto */}
+      {modalOpen && (
+        <AlertModal
+          isOpen={modalOpen}
+          onClose={() => setModalOpen(false)}
+          title={modalTitle}
+          description={modalDesc}
+          type={modalType}
+          onConfirm={() => {
+            setModalOpen(false);
+            if (modalType === 'success') {
+              window.location.href = '/'; // Redirigir al inicio si es éxito
+            }
+          }}
+        />
       )}
     </div>
   );
